@@ -127,9 +127,9 @@ class ProfilePage extends React.Component {
                         src={require("assets/img/mike.jpg")}
                       />
                       <h4 className="title">Ali Sherief</h4>
+                      <h6 className="title">Certified Hero</h6>
                     </CardHeader>
                     <CardBody>
-                  <h1 className="text-on-back">01</h1>
                   <p className="profile-description">
                     Offices parties lasting outward nothing age few resolve.
                     Impression to discretion understood to we interested he

@@ -132,16 +132,17 @@ class ProfilePage extends React.Component {
                     </CardHeader>
                     <CardBody>
                   <p className="profile-description">
-                    Offices parties lasting outward nothing age few resolve.
-                    Impression to discretion understood to we interested he
-                    excellence. Him remarkably use projection collecting. Going
-                    about eat forty world has round miles.
+                    I'm a developer. I do many things actually. From writing a missing
+                    math library to drawing mediocre artwork to web design to writing to scraping and
+                    curating datasets to 3D modelling, you'll find me anywhere there's
+                    passion. I guess you could also call me a 10X developer because I do
+                    the work that no one wants to do.
                   </p>
                   <div className="btn-wrapper profile pt-3">
                     <Button
                       className="btn-icon btn-round"
                       color="twitter"
-                      href="https://twitter.com/creativetim"
+                      href="https://twitter.com/Zenul_Abidin"
                       id="tooltip639225725"
                       target="_blank"
                     >
@@ -153,26 +154,26 @@ class ProfilePage extends React.Component {
                     <Button
                       className="btn-icon btn-round"
                       color="facebook"
-                      href="https://www.facebook.com/creativetim"
+                      href="mailto:alihsherief@linuxmail.org"
                       id="tooltip982846143"
                       target="_blank"
                     >
-                      <i className="fab fa-facebook-square" />
+                      <i className="fa fa-envelope" />
                     </Button>
                     <UncontrolledTooltip delay={0} target="tooltip982846143">
-                      Like us
+                      Send an email
                     </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
-                      color="dribbble"
-                      href="https://dribbble.com/creativetim"
+                      color="stackoverflow"
+                      href="https://stackoverflow.com/users/12452330/zenul-abidin"
                       id="tooltip951161185"
                       target="_blank"
                     >
-                      <i className="fab fa-dribbble" />
+                      <i className="fab fa-stack-overflow" />
                     </Button>
                     <UncontrolledTooltip delay={0} target="tooltip951161185">
-                      Follow us
+                      Developer credentials
                     </UncontrolledTooltip>
                   </div>
                     </CardBody>

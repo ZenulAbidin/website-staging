@@ -8402,6 +8402,40 @@ fieldset[disabled]
     .btn.btn-github.btn-neutral:hover, .btn.btn-github.btn-neutral:focus, .btn.btn-github.btn-neutral:active {
       color: #ccc; }
 
+.btn.btn-stackoverflow {
+  background: #dc8f00;
+  background-image: -webkit-linear-gradient(to bottom left, #f48024, #bcbbbb, #222426);
+  background-image: -o-linear-gradient(to bottom left, #f48024, #bcbbbb, #222426);
+  background-image: -moz-linear-gradient(to bottom left, #f48024, #bcbbbb, #222426);
+  background-image: linear-gradient(to bottom left, #f48024, #bcbbbb, #222426);
+  background-size: 210% 210%;
+  background-position: top right;
+  color: #ffffff;
+  background-size: 210% 210%;
+  background-position: top right;
+  background-repeat: space; }
+  .btn.btn-facebook:focus, .btn.btn-facebook:active, .btn.btn-facebook:hover {
+    background-color: #ff9900;
+    background-image: linear-gradient(to bottom left, #f48024, #bcbbbb, #222426) !important;
+    background-image: -webkit-linear-gradient(to bottom left, #f48024, #bcbbbb, #222426) !important;
+    background-image: -o-linear-gradient(to bottom left, #f48024, #bcbbbb, #222426) !important;
+    background-image: -moz-linear-gradient(to bottom left, #f48024, #bcbbbb, #222426) !important;
+    color: #ffffff; }
+  .btn.btn-facebook.btn-simple {
+    color: #ff9900;
+    background-color: transparent;
+    background-image: none !important;
+    box-shadow: none;
+    border-color: #ff9900; }
+    .btn.btn-facebook.btn-simple:hover, .btn.btn-facebook.btn-simple:focus, .btn.btn-facebook.btn-simple:active {
+      color: #ff9900;
+      border-color: #ff9900; }
+  .btn.btn-facebook.btn-neutral {
+    color: #ff9900;
+    background-color: #ffffff; }
+    .btn.btn-facebook.btn-neutral:hover, .btn.btn-facebook.btn-neutral:focus, .btn.btn-facebook.btn-neutral:active {
+      color: ##ff9900; }
+
 .dropdown-menu {
   border: 0;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);

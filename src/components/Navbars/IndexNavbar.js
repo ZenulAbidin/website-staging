@@ -17,6 +17,8 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+import "assets/css/nucleo-icons.css";
+
 // reactstrap components
 import {
   Button,
@@ -102,11 +104,10 @@ class ComponentsNavbar extends React.Component {
               tag={Link}
               id="navbar-brand"
             >
-              <span>BLK• </span>
-              Design System React
+              <span>Ali Sherief</span>
             </NavbarBrand>
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              Designed and Coded by Creative Tim
+              Template by BLK• Design System React
             </UncontrolledTooltip>
             <button
               aria-expanded={this.state.collapseOpen}
@@ -147,10 +148,10 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/CreativeTim"
+                  href="https://twitter.com/ZenulAbidin"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Follow us on Twitter"
+                  title="Follow me on Twitter"
                 >
                   <i className="fab fa-twitter" />
                   <p className="d-lg-none d-xl-none">Twitter</p>
@@ -159,25 +160,37 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.facebook.com/CreativeTim"
+                  href="https://discordhub.com/profile/660905245987307520"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Like us on Facebook"
+                  title="Chat with me on Discord"
                 >
-                  <i className="fab fa-facebook-square" />
-                  <p className="d-lg-none d-xl-none">Facebook</p>
+                  <i className="fab fa-discord" />
+                  <p className="d-lg-none d-xl-none">Discord</p>
                 </NavLink>
               </NavItem>
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.instagram.com/CreativeTimOfficial"
+                  href="https://github.com/ZenulAbidin"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Follow us on Instagram"
+                  title="View my projects on Github"
                 >
-                  <i className="fab fa-instagram" />
-                  <p className="d-lg-none d-xl-none">Instagram</p>
+                  <i className="fab fa-github" />
+                  <p className="d-lg-none d-xl-none">Github</p>
+                </NavLink>
+              </NavItem>
+              <NavItem className="p-0">
+                <NavLink
+                  data-placement="bottom"
+                  href="https://bitcointalk.org/index.php?action=profile;u=2739424"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="View my Bitcointalk profile"
+                >
+                  <i className="fab fa-bitcoin" />
+                  <p className="d-lg-none d-xl-none">Bitcointalk</p>
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav>
@@ -190,24 +203,24 @@ class ComponentsNavbar extends React.Component {
                   onClick={e => e.preventDefault()}
                 >
                   <i className="fa fa-cogs d-lg-none d-xl-none" />
-                  Getting started
+                  Links
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
-                  <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/tutorial">
-                    <i className="tim-icons icon-paper" />
-                    Documentation
-                  </DropdownItem>
-                  <DropdownItem tag={Link} to="/register-page">
-                    <i className="tim-icons icon-bullet-list-67" />
-                    Register Page
-                  </DropdownItem>
-                  <DropdownItem tag={Link} to="/landing-page">
-                    <i className="tim-icons icon-image-02" />
-                    Landing Page
-                  </DropdownItem>
-                  <DropdownItem tag={Link} to="/profile-page">
+                  <DropdownItem tag="a" href="/about-me">
                     <i className="tim-icons icon-single-02" />
-                    Profile Page
+                    About me
+                  </DropdownItem>
+                  <DropdownItem tag="a" href="/projects">
+                    <i className="tim-icons icon-minimal-right" />
+                    Projects
+                  </DropdownItem>
+                  <DropdownItem tag="a" href="/quotes">
+                    <i className="tim-icons icon-minimal-right" />
+                    Quotes
+                  </DropdownItem>
+                  <DropdownItem tag="a" href="/pgp-keys">
+                    <i className="tim-icons icon-minimal-right" />
+                    PGP keys
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -216,9 +229,9 @@ class ComponentsNavbar extends React.Component {
                  className="nav-link d-none d-lg-block"
                  color="primary"
                  target="_blank"
-                 href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
+                 href="https://dev.to/zenulabidin"
                >
-                 <i className="tim-icons icon-spaceship" /> Upgrade to PRO
+                 Blog
                </Button>
              </NavItem>
               <NavItem>
@@ -227,7 +240,7 @@ class ComponentsNavbar extends React.Component {
                   color="default"
                   onClick={this.scrollToDownload}
                 >
-                  <i className="tim-icons icon-cloud-download-93" /> Download
+                  <i className="tim-icons icon-send" /> Contact me
                 </Button>
               </NavItem>
             </Nav>

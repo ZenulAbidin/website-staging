@@ -129,7 +129,7 @@ class ProfilePage extends React.Component {
                       <h4 className="title">Ali Sherief</h4>
                     </CardHeader>
                     <CardBody>
-                  <h1 className="text-on-back">01</h>
+                  <h1 className="text-on-back">01</h1>
                   <p className="profile-description">
                     Offices parties lasting outward nothing age few resolve.
                     Impression to discretion understood to we interested he

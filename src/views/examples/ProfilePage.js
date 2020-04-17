@@ -136,15 +136,6 @@ class ProfilePage extends React.Component {
                     excellence. Him remarkably use projection collecting. Going
                     about eat forty world has round miles.
                   </p>
-                    </CardBody>
-                  <h1 className="profile-title text-left">Mike Scheinder</h1>
-                  <h5 className="text-on-back">01</h5>
-                  <p className="profile-description">
-                    Offices parties lasting outward nothing age few resolve.
-                    Impression to discretion understood to we interested he
-                    excellence. Him remarkably use projection collecting. Going
-                    about eat forty world has round miles.
-                  </p>
                   <div className="btn-wrapper profile pt-3">
                     <Button
                       className="btn-icon btn-round"
@@ -183,6 +174,7 @@ class ProfilePage extends React.Component {
                       Follow us
                     </UncontrolledTooltip>
                   </div>
+                    </CardBody>
                   </Card>
                 </Col>
               </Row>

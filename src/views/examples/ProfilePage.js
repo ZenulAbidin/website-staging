@@ -183,7 +183,6 @@ class ProfilePage extends React.Component {
                       Follow us
                     </UncontrolledTooltip>
                   </div>
-                </Col>
                   </Card>
                 </Col>
               </Row>

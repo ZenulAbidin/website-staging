@@ -416,6 +416,7 @@ class ProfilePage extends React.Component {
                 href="mailto:alihsherief@linuxmail.org"
               >
                 <i className="fab fa-envelope" />
+              </Button>
               <Button
                 className="btn-icon btn-round"
                 color="discord"

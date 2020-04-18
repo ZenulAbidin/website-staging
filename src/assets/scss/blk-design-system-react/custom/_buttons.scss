@@ -254,4 +254,7 @@
   &.btn-github {
     @include social-buttons-color($github, $github-states);
   }
+  &.btn-stackoverflow {
+    @include social-buttons-color($stackoverflow, $stackoverflow-states);
+  }
 }

@@ -126,8 +126,8 @@ class QuotesPage extends React.Component {
                  &#8220;Unstoppable.&#8221; - Ali Sherief
                </p>
             </div>
-          <Footer />
-        </div>
+          </div>
+        <Footer />
       </>
     );
   }

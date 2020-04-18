@@ -130,7 +130,7 @@ class ComponentsNavbar extends React.Component {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    BLK•React
+                    Ali Sherief
                   </a>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
@@ -202,7 +202,7 @@ class ComponentsNavbar extends React.Component {
                   nav
                   onClick={e => e.preventDefault()}
                 >
-                  <i className="fa fa-cogs d-lg-none d-xl-none" />
+                  <i className="fa fa-link d-lg-none d-xl-none" />
                   Links
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">

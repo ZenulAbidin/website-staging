@@ -195,9 +195,9 @@ class ProfilePage extends React.Component {
               </p>
               <Container className="align-items-center">
                 <Row>
-                  <Col lg={4} md={4} sm={2}>
+                  <Col lg={2} md={2} sm={2}>
                   </Col>
-                  <Col lg={4} md={4} sm={8}>
+                  <Col lg={6} md={6} sm={8}>
                     <ListGroup>
                       <ListGroupItem color="default">C++</ListGroupItem>
                       <ListGroupItem color="default">Qt</ListGroupItem>
@@ -216,9 +216,9 @@ class ProfilePage extends React.Component {
               </p>
               <Container className="align-items-center">
                 <Row>
-                  <Col lg={4} md={4} sm={2}>
+                  <Col lg={2} md={2} sm={2}>
                   </Col>
-                  <Col lg={4} md={4} sm={8}>
+                  <Col lg={6} md={6} sm={8}>
                     <ListGroup>
                       <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
                       <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>

@@ -14584,7 +14584,7 @@ input.datetimepicker[data-color="yellow"] + .bootstrap-datetimepicker-widget {
    }
 
 .card-myheading {
-  padding: 2.5rem; }
+  padding: 10rem; }
 
 @media (max-width: 767.98px) {
   .card.card-chart .card-header .btn-group-toggle .tim-icons {

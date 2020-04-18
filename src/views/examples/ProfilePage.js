@@ -121,8 +121,9 @@ class ProfilePage extends React.Component {
                 <Col lg={4} md={6}>
                 </Col>
                 <Col lg={4} md={6}>
-                  <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <h1 className="profile-title text-left">About me</h1><br/>
+                    </br>
+                  <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img
                         alt="..."
@@ -130,6 +131,7 @@ class ProfilePage extends React.Component {
                         src={require("assets/img/mike.jpg")}
                       />
                       <h4 className="title">Ali Sherief</h4>
+                      <CardSubtitle>Card subtitle</CardSubtitle>
                     </CardHeader>
                     <CardBody>
                   <p className="profile-description">

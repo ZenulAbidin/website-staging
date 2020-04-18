@@ -133,6 +133,27 @@
         padding: .4rem 1rem;
       }
     }
+
+  &.card-list {
+    border: 2px solid $default;
+
+    img {
+      width: 150px;
+    }
+    hr {
+      width: 20%;
+      margin-left: 40%;
+    }
+    .list-group {
+      margin: 0 auto;
+      text-align: center;
+
+      .list-group-item {
+        background-color: transparent;
+        border: none;
+        padding: .4rem 1rem;
+      }
+    }
   }
 }
 

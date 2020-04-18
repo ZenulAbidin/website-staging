@@ -207,31 +207,32 @@ class ProfilePage extends React.Component {
                       <h3 className="title">Foobar</h3>
                     </CardHeader>
                     <CardBody>
-                  <p className="profile-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
-                  </p>
+                      <p className="profile-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
+                      </p>
+                      <div className="btn-wrapper pt-3">
+                        <Button
+                          className="btn-simple"
+                          color="primary"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="tim-icons icon-book-bookmark" /> More info
+                        </Button>
+                        <Button
+                          className="btn-simple"
+                          color="info"
+                          href="#pablo"
+                          onClick={e => e.preventDefault()}
+                        >
+                          <i className="tim-icons icon-bulb-63" /> Check it!
+                        </Button>
+                      </div>
                     </CardBody>
                   </Card>
                 </Col>
                 <Col lg={3} md={3} sm={6}>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Check it!
-                    </Button>
-                  </div>
+
                 </Col>
               </Row>
             </Container>

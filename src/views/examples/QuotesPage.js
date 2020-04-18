@@ -71,7 +71,7 @@ const carouselItems = [
 let ps = null;
 
 
-class Quotes extends React.Component {
+class QuotesPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

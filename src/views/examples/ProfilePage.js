@@ -118,7 +118,8 @@ class ProfilePage extends React.Component {
               className="path"
               src={require("assets/img/path4.png")}
             />
-                 
+          </div>
+          <div className="section">
             <Container className="align-items-center">
               <Row>
                 <Col lg={4} md={6}>

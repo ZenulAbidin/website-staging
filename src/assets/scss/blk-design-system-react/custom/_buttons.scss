@@ -257,4 +257,13 @@
   &.btn-stackoverflow {
     @include social-buttons-color($stackoverflow, $stackoverflow-states);
   }
+  &.btn-email {
+    @include social-buttons-color($email, $email-states);
+  }
+  &.btn-discord {
+    @include social-buttons-color($discord, $discord-states);
+  }
+  &.btn-bitcoin {
+    @include social-buttons-color($bitcoin, $bitcoin-states);
+  }
 }

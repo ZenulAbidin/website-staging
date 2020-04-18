@@ -14564,8 +14564,6 @@ input.datetimepicker[data-color="yellow"] + .bootstrap-datetimepicker-widget {
       padding: 7px 0; }
   .card.card-coin {
     border: 2px solid #344675; }
-    .card.card-coin .card-header {
-      margin: -100px auto 20px; }
     .card.card-coin img {
       width: 150px; }
     .card.card-coin hr {
@@ -14575,6 +14573,22 @@ input.datetimepicker[data-color="yellow"] + .bootstrap-datetimepicker-widget {
       margin: 0 auto;
       text-align: center; }
       .card.card-coin .list-group .list-group-item {
+        background-color: transparent;
+        border: none;
+        padding: .4rem 1rem; }
+  .card.card-list {
+    border: 2px solid #344675; }
+    .card.card-list .card-header {
+      margin: -100px auto 20px; }
+    .card.card-list img {
+      width: 150px; }
+    .card.card-list hr {
+      width: 20%;
+      margin-left: 40%; }
+    .card.card-list .list-group {
+      margin: 0 auto;
+      text-align: center; }
+      .card.card-list .list-group .list-group-item {
         background-color: transparent;
         border: none;
         padding: .4rem 1rem; }

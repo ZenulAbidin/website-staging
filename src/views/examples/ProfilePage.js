@@ -105,6 +105,7 @@ class ProfilePage extends React.Component {
       <>
         <IndexNavbar />
         <div className="wrapper">
+          <h1>About me</h1>
           <div className="page-header">
             <img
               alt="..."
@@ -121,8 +122,6 @@ class ProfilePage extends React.Component {
                 <Col lg={4} md={6}>
                 </Col>
                 <Col lg={4} md={6}>
-                  <h1>About me</h1>
-                  <br /> <br />
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img

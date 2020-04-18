@@ -135,7 +135,7 @@ class ProfilePage extends React.Component {
                     </CardHeader>
                     <CardBody>
                   <p className="profile-description">
-                    I'm a developer. I do many things actually. From writing a missing
+                    I'm a developer based in Khartoum, Sudan. I do many things actually. From writing a missing
                     math library to drawing mediocre artwork to web design to writing to scraping and
                     curating datasets to 3D modelling, you'll find me anywhere there's
                     passion. I guess you could also call me a 10X developer because I do
@@ -186,23 +186,20 @@ class ProfilePage extends React.Component {
             </Container>
           </div>
           <div className="section">
+            <Container className="align-items-center">
+              <Row>
+                <Col lg={4} md={6}>
+                </Col>
+                <Col lg={4} md={6}>
+                  <h1 className="text-center">Projects</h1>
+                  <p className="profile-description text-left">
+                    Here are some of the software projects I completed or am currently working on.
+                  </p>
+                </Col>
+              </Row>
+            </Container>
             <Container>
               <Row className="justify-content-between">
-                <Col md="6">
-                  <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
-                  </Row>
-                </Col>
-                <Col md="5">
-                  <h1 className="profile-title text-left">Projects</h1>
-                  <h5 className="text-on-back">02</h5>
-                  <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
-                  </p>
                   <div className="btn-wrapper pt-3">
                     <Button
                       className="btn-simple"
@@ -235,93 +232,8 @@ class ProfilePage extends React.Component {
                       <h5 className="text-on-back">03</h5>
                     </CardHeader>
                     <CardBody>
-                      <Form>
-                        <Row>
-                          <Col md="6">
-                            <FormGroup>
-                              <label>Your Name</label>
-                              <Input defaultValue="Mike" type="text" />
-                            </FormGroup>
-                          </Col>
-                          <Col md="6">
-                            <FormGroup>
-                              <label>Email address</label>
-                              <Input
-                                placeholder="mike@email.com"
-                                type="email"
-                              />
-                            </FormGroup>
-                          </Col>
-                        </Row>
-                        <Row>
-                          <Col md="6">
-                            <FormGroup>
-                              <label>Phone</label>
-                              <Input defaultValue="001-12321345" type="text" />
-                            </FormGroup>
-                          </Col>
-                          <Col md="6">
-                            <FormGroup>
-                              <label>Company</label>
-                              <Input defaultValue="CreativeTim" type="text" />
-                            </FormGroup>
-                          </Col>
-                        </Row>
-                        <Row>
-                          <Col md="12">
-                            <FormGroup>
-                              <label>Message</label>
-                              <Input placeholder="Hello there!" type="text" />
-                            </FormGroup>
-                          </Col>
-                        </Row>
-                        <Button
-                          className="btn-round float-right"
-                          color="primary"
-                          data-placement="right"
-                          id="tooltip341148792"
-                          type="button"
-                        >
-                          Send text
-                        </Button>
-                        <UncontrolledTooltip
-                          delay={0}
-                          placement="right"
-                          target="tooltip341148792"
-                        >
-                          Can't wait for your message
-                        </UncontrolledTooltip>
-                      </Form>
                     </CardBody>
                   </Card>
-                </Col>
-                <Col className="ml-auto" md="4">
-                  <div className="info info-horizontal">
-                    <div className="icon icon-primary">
-                      <i className="tim-icons icon-square-pin" />
-                    </div>
-                    <div className="description">
-                      <h4 className="info-title">Find us at the office</h4>
-                      <p>
-                        Bld Mihail Kogalniceanu, nr. 8, <br />
-                        7652 Bucharest, <br />
-                        Romania
-                      </p>
-                    </div>
-                  </div>
-                  <div className="info info-horizontal">
-                    <div className="icon icon-primary">
-                      <i className="tim-icons icon-mobile" />
-                    </div>
-                    <div className="description">
-                      <h4 className="info-title">Give us a ring</h4>
-                      <p>
-                        Michael Jordan <br />
-                        +40 762 321 762 <br />
-                        Mon - Fri, 8:00-22:00
-                      </p>
-                    </div>
-                  </div>
                 </Col>
               </Row>
             </Container>

@@ -164,7 +164,7 @@ class ProfilePage extends React.Component {
                       Send an email
                     </UncontrolledTooltip>
                     <Button
-                      className="btn-icon btn-round"
+                      className="btn-icon btn-round btn-stackoverflow"
                       color="neutral"
                       href="https://stackoverflow.com/users/12452330/zenul-abidin"
                       id="tooltip951161185"

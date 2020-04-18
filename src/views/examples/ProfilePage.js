@@ -24,8 +24,8 @@ import {
   Button,
   Card,
   CardHeader,
-  CardTitle,
-  CardSubtitle,
+  ListGroup,
+  ListGroupItem,
   CardBody,
   Label,
   FormGroup,
@@ -137,7 +137,7 @@ class ProfilePage extends React.Component {
                     </CardHeader>
                     <CardBody>
                   <p className="profile-description">
-                    I'm a developer based in Khartoum, Sudan. I do many things actually. From writing a missing
+                    I'm a 20 year old developer based in Khartoum, Sudan. I do many things actually. From writing a missing
                     math library to drawing mediocre artwork to web design to writing to scraping and
                     curating datasets to 3D modelling, you'll find me anywhere there's
                     passion. I guess you could also call me a 10X developer because I do
@@ -186,6 +186,33 @@ class ProfilePage extends React.Component {
                 </Col>
               </Row>
             </Container>
+          </div>
+          <div className="section">
+           <div style={{"text-align": "center"}}>
+              <h1 className="text-center">Skills</h1>
+              <p className="profile-description" className="text-center">
+                The technologies that I know like the back of my hand, in no particular order.
+              </p>
+              <ListGroup>
+                <ListGroupItem color="default">C++</ListGroupItem>
+                <ListGroupItem color="default">Qt</ListGroupItem>
+                <ListGroupItem color="default">Python</ListGroupItem>
+              </ListGroup>
+            </div>
+          </div>
+          <div className="section">
+           <div style={{"text-align": "center"}}>
+              <h1 className="text-center">Milestones</h1>
+              <p className="profile-description" className="text-center">
+                Some of the more remarkable contributions I made and goals achieved for the betterment of mankind.
+              </p>
+              <ListGroup>
+                <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
+                <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>
+                <ListGroupItem color="success">2020-02-24: Completed HackerRank #30DaysofCode in <a href="https://www.hackerrank.com/alihsherief">six</a> languages</ListGroupItem>
+                <ListGroupItem color="success">2019-12-05: First DEV.to blog post</ListGroupItem>
+              </ListGroup>
+            </div>
           </div>
           <div className="section">
            <div style={{"text-align": "center"}}>

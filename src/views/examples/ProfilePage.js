@@ -118,7 +118,7 @@ class ProfilePage extends React.Component {
             />
             <Container className="align-items-center">
               <Row>
-                <Col lgOffset="2" lg="4" mdOffset="3" md="6">
+                <Col lgOffset={2} lg={4} mdOffset={3} md={6}>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img

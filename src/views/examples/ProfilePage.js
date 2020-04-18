@@ -24,6 +24,8 @@ import {
   Button,
   Card,
   CardHeader,
+  CardTitle,
+  CardSubtitle,
   CardBody,
   Label,
   FormGroup,
@@ -130,8 +132,8 @@ class ProfilePage extends React.Component {
                         src={require("assets/img/mike.jpg")}
                       />
                       <h4 className="title">Ali Sherief</h4>
-                      <CardSubtitle>Card subtitle</CardSubtitle>
                     </CardHeader>
+                    <CardSubtitle>Card subtitle</CardSubtitle>
                     <CardBody>
                   <p className="profile-description">
                     I'm a developer. I do many things actually. From writing a missing

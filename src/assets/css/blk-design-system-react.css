@@ -12556,6 +12556,7 @@ hr {
 
 .page-header {
   min-height: 100vh;
+  max-height: fit-content;
   padding: 0;
   color: #ffffff;
   position: relative;

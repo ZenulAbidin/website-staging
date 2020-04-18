@@ -109,7 +109,7 @@ class QuotesPage extends React.Component {
       <>
         <IndexNavbar />
         <div className="wrapper">
-          <div className="section">
+          <div className="page-header" style={{"max-height": "none"}}>
             <img
               alt="..."
               className="dots"
@@ -120,6 +120,7 @@ class QuotesPage extends React.Component {
               className="path"
               src={require("assets/img/path4.png")}
             />
+            <br/>
             <div style={{"text-align": "center"}}>
               <h1 className="text-center">Miscellaneous quotes</h1>
               <p className="profile-description" className="text-center text-padding">

@@ -117,11 +117,11 @@ class ProfilePage extends React.Component {
               src={require("assets/img/path4.png")}
             />
             <Container className="align-items-center">
-              <h1>About me</h1>
               <Row>
                 <Col lg={4} md={6}>
                 </Col>
                 <Col lg={4} md={6}>
+                  <h1>About me</h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img

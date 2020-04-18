@@ -109,7 +109,7 @@ class QuotesPage extends React.Component {
       <>
         <IndexNavbar />
         <div className="wrapper">
-          <div className="page-header" style={{"max-height": "none"}}>
+          <div className="section">
             <img
               alt="..."
               className="dots"

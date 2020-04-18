@@ -200,6 +200,7 @@ class ProfilePage extends React.Component {
             </Container>
             <Container>
               <Row className="justify-content-between">
+                <Col lg={4} md={6}>
                   <div className="btn-wrapper pt-3">
                     <Button
                       className="btn-simple"

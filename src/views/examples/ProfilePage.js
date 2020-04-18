@@ -116,8 +116,8 @@ class ProfilePage extends React.Component {
               className="path"
               src={require("assets/img/path4.png")}
             />
-            <h1>About me</h1>
             <Container className="align-items-center">
+              <h1>About me</h1>
               <Row>
                 <Col lg={4} md={6}>
                 </Col>

@@ -173,7 +173,7 @@ $email-states:          darken($email, 5%) !default;
 $discord:               #7289DA !default;
 $discord-states:        lighten($email, 5%) !default;
 $bitcointalk:           #ff9900 !default;
-$bitcointalk-states:    lighten($stackoverflow, 5%) !default;
+$bitcointalk-states:    lighten($bitcointalk, 5%) !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((

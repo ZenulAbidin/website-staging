@@ -434,7 +434,7 @@ class ProfilePage extends React.Component {
                     </Button>
                     <Button
                       className="btn-icon btn-round"
-                      color="bitcoin"
+                      color="bitcointalk"
                       href="https://bitcointalk.org/index.php?action=profile;u=2739424"
                       id="contact-bitcoin"
                       size="lg"

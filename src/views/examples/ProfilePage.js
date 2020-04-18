@@ -388,70 +388,71 @@ class ProfilePage extends React.Component {
               <p className="profile-description" className="text-center text-padding">
                 Get in touch using any of these communication methods
               </p>
-            <Container>
-          <Row className="row-grid align-items-center my-md">
-            <Col lg="6">
-              <h3 className="text-info font-weight-light mb-2">
-                Thank you for visiting my site!
-              </h3>
-              <h4 className="mb-0 font-weight-light">
-                Let's get in touch on any of these platforms.
-              </h4>
-            </Col>
-            <Col className="text-lg-center btn-wrapper" lg="6">
-              <Button
-                className="btn-icon btn-round"
-                color="twitter"
-                id="contact-twitter"
-                size="lg"
-                href="https://twitter.com/Zenul_Abidin"
-              >
-                <i className="fab fa-twitter" />
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="email"
-                id="contact-email"
-                size="lg"
-                href="mailto:alihsherief@linuxmail.org"
-              >
-                <i className="fab fa-envelope" />
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="discord"
-                id="contact-discord"
-                size="lg"
-                href="https://discordhub.com/profile/660905245987307520"
-              >
-                <i className="fab fa-discord" />
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="github"
-                href="https://github.com/ZenulAbidin"
-                id="contact-github"
-                size="lg"
-                target="_blank"
-              >
-                <i className="fab fa-github" />
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="bitcoin"
-                href="https://bitcointalk.org/index.php?action=profile;u=2739424"
-                id="contact-bitcoin"
-                size="lg"
-                target="_blank"
-              >
-                <i className="fab fa-bitcoin" />
-              </Button>
-              <UncontrolledTooltip placement="bottom" target="navbar-brand">
-                Template by BLK• Design System React
-              </UncontrolledTooltip>
-            </Col>
-          </Row>
-            </Container>
+              <Container>
+                <Row className="row-grid align-items-center my-md">
+                  <Col lg="6">
+                    <h3 className="text-info font-weight-light mb-2">
+                      Thank you for visiting my site!
+                    </h3>
+                    <h4 className="mb-0 font-weight-light">
+                      Let's get in touch on any of these platforms.
+                    </h4>
+                  </Col>
+                  <Col className="text-lg-center btn-wrapper" lg="6">
+                    <Button
+                      className="btn-icon btn-round"
+                      color="twitter"
+                      id="contact-twitter"
+                      size="lg"
+                      href="https://twitter.com/Zenul_Abidin"
+                    >
+                      <i className="fab fa-twitter" />
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="email"
+                      id="contact-email"
+                      size="lg"
+                      href="mailto:alihsherief@linuxmail.org"
+                    >
+                      <i className="fab fa-envelope" />
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="discord"
+                      id="contact-discord"
+                      size="lg"
+                      href="https://discordhub.com/profile/660905245987307520"
+                    >
+                      <i className="fab fa-discord" />
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="github"
+                      href="https://github.com/ZenulAbidin"
+                      id="contact-github"
+                      size="lg"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github" />
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="bitcoin"
+                      href="https://bitcointalk.org/index.php?action=profile;u=2739424"
+                      id="contact-bitcoin"
+                      size="lg"
+                      target="_blank"
+                    >
+                      <i className="fab fa-bitcoin" />
+                    </Button>
+                    <UncontrolledTooltip placement="bottom" target="navbar-brand">
+                      Template by BLK• Design System React
+                    </UncontrolledTooltip>
+                  </Col>
+                </Row>
+              </Container>
+            </div>
           <Footer />
         </div>
       </>

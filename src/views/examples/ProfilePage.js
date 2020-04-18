@@ -121,7 +121,7 @@ class ProfilePage extends React.Component {
                 <Col lg={4} md={6}>
                 </Col>
                 <Col lg={4} md={6}>
-                  <h1>About me</h1>
+                  <h2>About me</h2>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img

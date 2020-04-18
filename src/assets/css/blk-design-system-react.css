@@ -14597,6 +14597,11 @@ input.datetimepicker[data-color="yellow"] + .bootstrap-datetimepicker-widget {
   padding: 1.25rem;
    }
 
+.text-padding {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 @media (max-width: 767.98px) {
   .card.card-chart .card-header .btn-group-toggle .tim-icons {
     font-size: .875rem;

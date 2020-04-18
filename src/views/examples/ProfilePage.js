@@ -190,14 +190,14 @@ class ProfilePage extends React.Component {
           <div className="section">
             <div style={{"text-align": "center"}}>
               <h1 className="text-center">Skills</h1>
-              <p className="profile-description" className="text-center">
+              <p className="profile-description" className="text-center text-padding">
                 The technologies that I know like the back of my hand, in no particular order.
               </p>
               <Container className="align-items-center">
                 <Row>
-                  <Col lg={2} md={1} sm={2}>
+                  <Col lg={2} md={1} sm={1}>
                   </Col>
-                  <Col lg={8} md={10} sm={8}>
+                  <Col lg={8} md={10} sm={10}>
                     <ListGroup>
                       <ListGroupItem color="default">C++</ListGroupItem>
                       <ListGroupItem color="default">Qt</ListGroupItem>
@@ -211,14 +211,14 @@ class ProfilePage extends React.Component {
           <div className="section">
            <div style={{"text-align": "center"}}>
               <h1 className="text-center">Milestones</h1>
-              <p className="profile-description" className="text-center">
+              <p className="profile-description" className="text-center text-padding">
                 Some of the more remarkable contributions I made and goals achieved for the betterment of mankind.
               </p>
               <Container className="align-items-center">
                 <Row>
-                  <Col lg={2} md={1} sm={2}>
+                  <Col lg={2} md={1} sm={1}>
                   </Col>
-                  <Col lg={8} md={10} sm={8}>
+                  <Col lg={8} md={10} sm={10}>
                     <ListGroup>
                       <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
                       <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>
@@ -233,7 +233,7 @@ class ProfilePage extends React.Component {
           <div className="section">
            <div style={{"text-align": "center"}}>
               <h1 className="text-center">Projects</h1>
-              <p className="profile-description" className="text-center">
+              <p className="profile-description" className="text-center text-padding">
                 Here are some of the software projects I completed or am currently working on.
               </p>
             </div>

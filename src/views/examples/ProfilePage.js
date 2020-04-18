@@ -196,7 +196,24 @@ class ProfilePage extends React.Component {
             </div>
             <Container>
               <Row className="justify-content-between">
-                <Col lg={4} md={6} sm={6}>
+                <Col lg={3} md={3} sm={6}>
+                  <Card className="ml-auto mr-auto" className="card-coin card-plain">
+                    <CardHeader>
+                      <img
+                        alt="..."
+                        className="img-center img-fluid"
+                        src={require("assets/img/mike.jpg")}
+                      />
+                      <h3 className="title">Foobar</h3>
+                    </CardHeader>
+                    <CardBody>
+                  <p className="profile-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis. Nullam viverra, erat id pharetra elementum, nisi nunc varius metus, id porta augue sapien sit amet nisl. Sed augue nibh, lobortis accumsan tempus sit amet, porttitor in nisl. Nullam rutrum id orci ut laoreet. Donec sagittis quam sit amet diam consequat, ut sagittis lorem placerat. Aliquam commodo augue in dapibus auctor. Sed et cursus velit. 
+                  </p>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col lg={3} md={3} sm={6}>
                   <div className="btn-wrapper pt-3">
                     <Button
                       className="btn-simple"

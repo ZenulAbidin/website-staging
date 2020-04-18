@@ -123,7 +123,7 @@ class ProfilePage extends React.Component {
                 <Col lg={4} md={6}>
                 </Col>
                 <Col lg={4} md={6}>
-                    <h1 className="profile-title text-left">About me</h1><br/>
+                    <h1 className="profile-title text-left">About me<br/><br/></h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img
@@ -133,7 +133,6 @@ class ProfilePage extends React.Component {
                       />
                       <h4 className="title">Ali Sherief</h4>
                     </CardHeader>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
                     <CardBody>
                   <p className="profile-description">
                     I'm a developer. I do many things actually. From writing a missing

@@ -120,9 +120,9 @@ class ProfilePage extends React.Component {
             />
             <Container className="align-items-center">
               <Row>
-                <Col lg={4} md={6}>
+                <Col lg={4} md={6} sm={6}>
                 </Col>
-                <Col lg={4} md={6}>
+                <Col lg={4} md={6} sm={6}>
                    <h1 className="text-center" style={{"margin-bottom": "150px"}}>About me</h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain" style={{"margin-top": "100px"}}>
                     <CardHeader>
@@ -188,11 +188,11 @@ class ProfilePage extends React.Component {
           <div className="section">
             <Container className="align-items-center">
               <Row>
-                <Col lg={4} md={6}>
+                <Col lg={4} md={6} sm={6}>
                 </Col>
-                <Col lg={4} md={6}>
+                <Col lg={4} md={6} sm={6}>
                   <h1 className="text-center">Projects</h1>
-                  <p className="profile-description text-left">
+                  <p className="profile-description">
                     Here are some of the software projects I completed or am currently working on.
                   </p>
                 </Col>
@@ -200,7 +200,7 @@ class ProfilePage extends React.Component {
             </Container>
             <Container>
               <Row className="justify-content-between">
-                <Col lg={4} md={6}>
+                <Col lg={4} md={6} sm={6}>
                   <div className="btn-wrapper pt-3">
                     <Button
                       className="btn-simple"

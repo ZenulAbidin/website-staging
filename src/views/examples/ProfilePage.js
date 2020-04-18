@@ -383,11 +383,7 @@ class ProfilePage extends React.Component {
             </Container>
           </div>
           <div className="section">
-           <div style={{"text-align": "center"}}>
               <h1 className="text-center">Contact</h1>
-              <p className="profile-description" className="text-center text-padding">
-                Get in touch using any of these communication methods
-              </p>
               <Container>
                 <Row className="row-grid align-items-center my-md">
                   <Col lg="6">

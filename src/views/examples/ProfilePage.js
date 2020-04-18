@@ -382,7 +382,7 @@ class ProfilePage extends React.Component {
               </Row>
             </Container>
           </div>
-          <div className="section">
+          <div className="section" id="contact">
               <h1 className="text-center">Contact</h1>
               <Container>
                 <Row className="row-grid align-items-center my-md">
@@ -404,6 +404,9 @@ class ProfilePage extends React.Component {
                     >
                       <i className="fab fa-twitter" />
                     </Button>
+                    <UncontrolledTooltip placement="bottom" target="contact-twitter">
+                      Twitter
+                    </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
                       color="email"
@@ -413,6 +416,9 @@ class ProfilePage extends React.Component {
                     >
                       <i className="fa fa-envelope" />
                     </Button>
+                    <UncontrolledTooltip placement="bottom" target="contact-email">
+                      Email
+                    </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
                       color="discord"
@@ -422,6 +428,9 @@ class ProfilePage extends React.Component {
                     >
                       <i className="fab fa-discord" />
                     </Button>
+                    <UncontrolledTooltip placement="bottom" target="contact-discord">
+                      Discord
+                    </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
                       color="github"
@@ -432,6 +441,9 @@ class ProfilePage extends React.Component {
                     >
                       <i className="fab fa-github" />
                     </Button>
+                    <UncontrolledTooltip placement="bottom" target="contact-github">
+                      Github
+                    </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
                       color="bitcointalk"
@@ -442,8 +454,8 @@ class ProfilePage extends React.Component {
                     >
                       <i className="fab fa-bitcoin" />
                     </Button>
-                    <UncontrolledTooltip placement="bottom" target="navbar-brand">
-                      Template by BLK• Design System React
+                    <UncontrolledTooltip placement="bottom" target="contact-bitcoin">
+                      Bitcointalk
                     </UncontrolledTooltip>
                   </Col>
                 </Row>

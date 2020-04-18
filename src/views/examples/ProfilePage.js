@@ -165,7 +165,7 @@ class ProfilePage extends React.Component {
                     </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
-                      color="dribbble"
+                      color="github"
                       href="https://stackoverflow.com/users/12452330/zenul-abidin"
                       id="tooltip951161185"
                       target="_blank"

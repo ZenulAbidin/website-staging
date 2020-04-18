@@ -27,6 +27,7 @@ import Index from "views/Index.js";
 //import LandingPage from "views/examples/LandingPage.js";
 //import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import QuotesPage from "views/examples/QuotesPage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -35,6 +36,10 @@ ReactDOM.render(
       <Route
         path="/about-me"
         render={props => <ProfilePage {...props} />}
+      />
+      <Route
+        path="/quotes"
+        render={props => <QuotesPage {...props} />}
       />
     </Switch>
   </BrowserRouter>,

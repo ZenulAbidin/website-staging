@@ -158,7 +158,7 @@ class ProfilePage extends React.Component {
                     </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
-                      color="facebook"
+                      color="email"
                       href="mailto:alihsherief@linuxmail.org"
                       id="tooltip982846143"
                       target="_blank"
@@ -187,7 +187,7 @@ class ProfilePage extends React.Component {
               </Row>
             </Container>
           </div>
-          <div className="section">
+          <div className="section" id="skills">
             <div style={{"text-align": "center"}}>
               <h1 className="text-center">Skills</h1>
               <p className="profile-description" className="text-center text-padding">
@@ -208,7 +208,7 @@ class ProfilePage extends React.Component {
               </Container>
             </div>
           </div>
-          <div className="section">
+          <div className="section" id="milestones">
            <div style={{"text-align": "center"}}>
               <h1 className="text-center">Milestones</h1>
               <p className="profile-description" className="text-center text-padding">
@@ -230,7 +230,7 @@ class ProfilePage extends React.Component {
               </Container>
             </div>
           </div>
-          <div className="section">
+          <div className="section" id="projects">
            <div style={{"text-align": "center"}}>
               <h1 className="text-center">Projects</h1>
               <p className="profile-description" className="text-center text-padding">

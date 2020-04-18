@@ -210,7 +210,7 @@ class ComponentsNavbar extends React.Component {
                     <i className="tim-icons icon-single-02" />
                     About me
                   </DropdownItem>
-                  <DropdownItem tag="a" href="/projects">
+                  <DropdownItem tag="a" href="/about-me#projects">
                     <i className="tim-icons icon-minimal-right" />
                     Projects
                   </DropdownItem>

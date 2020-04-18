@@ -123,7 +123,7 @@ class ProfilePage extends React.Component {
                 <Col lg={4} md={6}>
                 </Col>
                 <Col lg={4} md={6}>
-                   <h1 className="profile-title text-left" style={{"margin-bottom": "100px"}}>About me</h1>
+                   <h1 className="profile-title text-left" style={{"margin-bottom": "300px"}}>About me</h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain" style={{"margin-top": "100px"}}>
                     <CardHeader>
                       <img

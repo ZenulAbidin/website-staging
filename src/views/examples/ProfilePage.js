@@ -197,7 +197,7 @@ class ProfilePage extends React.Component {
             <Container>
               <Row className="justify-content-between">
                 <Col lg={3} md={3} sm={6}>
-                  <Card className="ml-auto mr-auto" className="card-coin card-plain">
+                  <Card className="ml-auto mr-auto" className="card-list card-plain">
                     <CardHeader>
                       <img
                         alt="..."

@@ -263,7 +263,7 @@
   &.btn-discord {
     @include social-buttons-color($discord, $discord-states);
   }
-  &.btn-bitcoin {
+  &.btn-bitcointalk {
     @include social-buttons-color($bitcointalk, $bitcointalk-states);
   }
 }

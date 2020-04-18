@@ -188,16 +188,24 @@ class ProfilePage extends React.Component {
             </Container>
           </div>
           <div className="section">
-           <div style={{"text-align": "center"}}>
+            <div style={{"text-align": "center"}}>
               <h1 className="text-center">Skills</h1>
               <p className="profile-description" className="text-center">
                 The technologies that I know like the back of my hand, in no particular order.
               </p>
-              <ListGroup>
-                <ListGroupItem color="default">C++</ListGroupItem>
-                <ListGroupItem color="default">Qt</ListGroupItem>
-                <ListGroupItem color="default">Python</ListGroupItem>
-              </ListGroup>
+              <Container className="align-items-center">
+                <Row>
+                  <Col lg={4} md={4} sm={2}>
+                  </Col>
+                  <Col lg={4} md={4} sm={8}>
+                    <ListGroup>
+                      <ListGroupItem color="default">C++</ListGroupItem>
+                      <ListGroupItem color="default">Qt</ListGroupItem>
+                      <ListGroupItem color="default">Python</ListGroupItem>
+                    </ListGroup>
+                  </Col>
+                </Row>
+              </Container>
             </div>
           </div>
           <div className="section">
@@ -206,12 +214,20 @@ class ProfilePage extends React.Component {
               <p className="profile-description" className="text-center">
                 Some of the more remarkable contributions I made and goals achieved for the betterment of mankind.
               </p>
-              <ListGroup>
-                <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
-                <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>
-                <ListGroupItem color="success">2020-02-24: Completed HackerRank #30DaysofCode in <a href="https://www.hackerrank.com/alihsherief">six</a> languages</ListGroupItem>
-                <ListGroupItem color="success">2019-12-05: First DEV.to blog post</ListGroupItem>
-              </ListGroup>
+              <Container className="align-items-center">
+                <Row>
+                  <Col lg={4} md={4} sm={2}>
+                  </Col>
+                  <Col lg={4} md={4} sm={8}>
+                    <ListGroup>
+                      <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
+                      <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>
+                      <ListGroupItem color="success">2020-02-24: Completed HackerRank #30DaysofCode in <a href="https://www.hackerrank.com/alihsherief">six</a> languages</ListGroupItem>
+                      <ListGroupItem color="success">2019-12-05: First DEV.to blog post</ListGroupItem>
+                    </ListGroup>
+                  </Col>
+                </Row>
+              </Container>
             </div>
           </div>
           <div className="section">

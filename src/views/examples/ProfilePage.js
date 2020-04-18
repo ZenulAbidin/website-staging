@@ -70,18 +70,19 @@ const carouselItems = [
 
 let ps = null;
 
+
+const [activeTab, setActiveTab] = useState('1');
+
+const toggle = tab => {
+if(activeTab !== tab) setActiveTab(tab);
+}
+
 class ProfilePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       tabs: 1
     };
-  }
-
-  const [activeTab, setActiveTab] = useState('1');
-
-  const toggle = tab => {
-    if(activeTab !== tab) setActiveTab(tab);
   }
 
   componentDidMount() {
@@ -193,18 +194,10 @@ class ProfilePage extends React.Component {
             </Container>
           </div>
           <div className="section">
-            <Container className="align-items-center">
-              <Row>
-                <Col lg={4} md={6} sm={6}>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                  <h1 className="text-center">Projects</h1>
-                  <p className="profile-description">
-                    Here are some of the software projects I completed or am currently working on.
-                  </p>
-                </Col>
-              </Row>
-            </Container>
+            <div style={{"text-align: center"}}>
+              <h1 className="text-center">Projects</h1>
+              <p className="profile-description">
+            </div>
             <Container>
               <Row className="justify-content-between">
                 <Col lg={4} md={6} sm={6}>

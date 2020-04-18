@@ -223,7 +223,7 @@ class ProfilePage extends React.Component {
                       <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
                       <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>
                       <ListGroupItem color="success">2020-02-24: Completed HackerRank #30DaysofCode in <a href="https://www.hackerrank.com/alihsherief">six</a> languages</ListGroupItem>
-                      <ListGroupItem color="success">2019-12-05: First DEV.to blog post</ListGroupItem>
+                      <ListGroupItem color="success">2019-12-05: First DEV.to <a href="https://dev.to/zenulabidin/testing-less-variables-with-do-while-2p4o">blog post</a></ListGroupItem>
                     </ListGroup>
                   </Col>
                 </Row>
@@ -382,23 +382,75 @@ class ProfilePage extends React.Component {
               </Row>
             </Container>
           </div>
-          <section className="section">
+          <div className="section">
+           <div style={{"text-align": "center"}}>
+              <h1 className="text-center">Contact</h1>
+              <p className="profile-description" className="text-center text-padding">
+                Get in touch using any of these communication methods
+              </p>
             <Container>
-              <Row>
-                <Col md="6">
-                  <Card className="card-plain">
-                    <CardHeader>
-                      <h1 className="profile-title text-left">Contact</h1>
-                      <h5 className="text-on-back">03</h5>
-                    </CardHeader>
-                    <CardBody>
-                    <p>Insert social media buttons here</p>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
+          <Row className="row-grid align-items-center my-md">
+            <Col lg="6">
+              <h3 className="text-info font-weight-light mb-2">
+                Thank you for visiting my site!
+              </h3>
+              <h4 className="mb-0 font-weight-light">
+                Let's get in touch on any of these platforms.
+              </h4>
+            </Col>
+            <Col className="text-lg-center btn-wrapper" lg="6">
+              <Button
+                className="btn-icon btn-round"
+                color="twitter"
+                id="contact-twitter"
+                size="lg"
+                href="https://twitter.com/Zenul_Abidin"
+              >
+                <i className="fab fa-twitter" />
+              </Button>
+              <Button
+                className="btn-icon btn-round"
+                color="email"
+                id="contact-email"
+                size="lg"
+                href="mailto:alihsherief@linuxmail.org"
+              >
+                <i className="fab fa-envelope" />
+              <Button
+                className="btn-icon btn-round"
+                color="discord"
+                id="contact-discord"
+                size="lg"
+                href="https://discordhub.com/profile/660905245987307520"
+              >
+                <i className="fab fa-discord" />
+              </Button>
+              <Button
+                className="btn-icon btn-round"
+                color="github"
+                href="https://github.com/ZenulAbidin"
+                id="contact-github"
+                size="lg"
+                target="_blank"
+              >
+                <i className="fab fa-github" />
+              </Button>
+              <Button
+                className="btn-icon btn-round"
+                color="bitcoin"
+                href="https://bitcointalk.org/index.php?action=profile;u=2739424"
+                id="contact-bitcoin"
+                size="lg"
+                target="_blank"
+              >
+                <i className="fab fa-bitcoin" />
+              </Button>
+              <UncontrolledTooltip placement="bottom" target="navbar-brand">
+                Template by BLK• Design System React
+              </UncontrolledTooltip>
+            </Col>
+          </Row>
             </Container>
-          </section>
           <Footer />
         </div>
       </>

@@ -168,6 +168,12 @@ $behance:               #1769ff !default;
 $behance-states:        lighten($behance, 6%) !default;
 $stackoverflow:         #f48024 !default;
 $stackoverflow-states:  darken($stackoverflow, 5%) !default;
+$email:                 #bdbcba !default;
+$email-states:          darken($email, 5%) !default;
+$discord:               #7289DA !default;
+$discord-states:        lighten($email, 5%) !default;
+$bitcointalk:           #ff9900 !default;
+$bitcointalk-states:    lighten($stackoverflow, 5%) !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -198,6 +204,10 @@ $brand-colors: map-merge((
   "behance":      $behance,
   "tumblr":       $tumblr,
   "linkedin":     $linkedin,
+  "stackoverflow": $stackoverflow,
+  "email":        $email,
+  "discord":      $discord,
+  "bitcointalk":  $bitcointalk,
 ), $brand-colors);
 
 

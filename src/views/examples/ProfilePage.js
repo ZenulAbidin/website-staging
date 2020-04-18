@@ -194,9 +194,11 @@ class ProfilePage extends React.Component {
             </Container>
           </div>
           <div className="section">
-            <div style={{"text-align": "center"}}>
+           <div style={{"text-align": "center"}}>
               <h1 className="text-center">Projects</h1>
               <p className="profile-description">
+                Here are some of the software projects I completed or am currently working on.
+              </p>
             </div>
             <Container>
               <Row className="justify-content-between">

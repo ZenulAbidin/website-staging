@@ -166,6 +166,8 @@ $tumblr:                #35465c !default;
 $tumblr-states:         lighten($tumblr, 6%) !default;
 $behance:               #1769ff !default;
 $behance-states:        lighten($behance, 6%) !default;
+$stackoverflow:         #222426 !default;
+$stackoverflow-states:  darken($stackoverflow, 5%) !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((

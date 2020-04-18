@@ -77,6 +77,13 @@ class ProfilePage extends React.Component {
       tabs: 1
     };
   }
+
+  const [activeTab, setActiveTab] = useState('1');
+
+  const toggle = tab => {
+    if(activeTab !== tab) setActiveTab(tab);
+  }
+
   componentDidMount() {
     if (navigator.platform.indexOf("Win") > -1) {
       document.documentElement.className += " perfect-scrollbar-on";
@@ -120,9 +127,9 @@ class ProfilePage extends React.Component {
             />
             <Container className="align-items-center">
               <Row>
-                <Col lg={4} md={6} sm={4}>
+                <Col lg={4} md={4} sm={2}>
                 </Col>
-                <Col lg={4} md={6} sm={4}>
+                <Col lg={4} md={4} sm={8}>
                    <h1 className="text-center" style={{"margin-bottom": "150px"}}>About me</h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain" style={{"margin-top": "100px"}}>
                     <CardHeader>

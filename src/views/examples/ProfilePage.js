@@ -448,6 +448,7 @@ class ProfilePage extends React.Component {
                   </Col>
                 </Row>
               </Container>
+              <p className="text-center">But Telegram is not one of them, sorry for the inconvenience.</p>
             </div>
           <Footer />
         </div>

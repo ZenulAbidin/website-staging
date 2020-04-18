@@ -71,12 +71,6 @@ const carouselItems = [
 let ps = null;
 
 
-const [activeTab, setActiveTab] = useState('1');
-
-const toggle = tab => {
-if(activeTab !== tab) setActiveTab(tab);
-}
-
 class ProfilePage extends React.Component {
   constructor(props) {
     super(props);

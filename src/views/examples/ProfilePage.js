@@ -107,7 +107,7 @@ class ProfilePage extends React.Component {
       <>
         <IndexNavbar />
         <div className="wrapper">
-          <div className="page-header">
+          <div className="page-header" style={{"max-height": "none"}}>
             <img
               alt="..."
               className="dots"

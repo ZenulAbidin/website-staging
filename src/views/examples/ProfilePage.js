@@ -118,13 +118,23 @@ class ProfilePage extends React.Component {
               className="path"
               src={require("assets/img/path4.png")}
             />
+                 
             <Container className="align-items-center">
               <Row>
                 <Col lg={4} md={6}>
                 </Col>
                 <Col lg={4} md={6}>
-                    <h1 className="profile-title text-left">About me</h1>
-                  <Card className="ml-auto mr-auto" className="card-coin card-plain" style={{"display": "block"}}>
+                   <h1 className="profile-title text-left">About me</h1>
+                </Col>
+              </Row>
+            </Container>
+            <Container className="align-items-center">
+              <Row>
+                <Col lg={4} md={6}>
+                </Col>
+                <Col lg={4} md={6}>
+
+                  <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img
                         alt="..."

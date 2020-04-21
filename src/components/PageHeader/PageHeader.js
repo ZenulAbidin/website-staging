@@ -24,7 +24,7 @@ class PageHeader extends React.Component {
   render() {
     return (
       <div className="page-header header-filter">
-        <div className"page-header background-1">
+        <div className="page-header background-1">
            <Container>
              <div className="content-center brand">
                <h1 className="h1-seo">BLK• React</h1>

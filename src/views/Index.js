@@ -49,17 +49,11 @@ class Index extends React.Component {
         <div className="wrapper">
           <PageHeader />
           <div className="main">
-            <Basics />
-            <Navbars />
-            <Tabs />
-            <Pagination />
-            <Notifications />
-            <Typography />
-            <JavaScript />
-            <NucleoIcons />
-            <Signup />
-            <Examples />
-            <Download />
+            <div style={{"text-align": "center"}}>
+              <p className="text-center text-padding">
+                Welcome to my site. Have a look around.
+              </p>
+            </div>
           </div>
           <Footer />
         </div>

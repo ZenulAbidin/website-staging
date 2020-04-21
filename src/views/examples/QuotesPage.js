@@ -121,12 +121,12 @@ class QuotesPage extends React.Component {
               src={require("assets/img/path4.png")}
             />
             <div style={{"text-align": "center"}}>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               <h1 className="text-center">Miscellaneous quotes</h1>
               <p className="profile-description" className="text-center text-padding">
                 &#8220;Unstoppable.&#8221; - Ali Sherief

@@ -50,9 +50,9 @@ class Description extends React.Component {
       <div className="section section-basic" id="basic-elements">
         <img alt="..." className="path" src={require("assets/img/path1.png")} />
         <Container>
-          <h2 className="title">Welcome to my site. Have a look around.</h2>
-          <h3>Buttons</h3>
-          <p className="category">Pick your style</p>
+          <h3 className="title">Welcome to my site. Have a look around.</h3>
+          <h2 className="text-center">Site Links</h2>
+          <p className="typography-line">Pick your style</p>
         </Container>
       </div>
     );

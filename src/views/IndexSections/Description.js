@@ -44,20 +44,6 @@ class Description extends React.Component {
     };
   }
   componentDidMount() {
-    var slider1 = this.refs.slider1;
-    var slider2 = this.refs.slider2;
-    Slider.create(slider1, {
-      start: [40],
-      connect: [true, false],
-      step: 1,
-      range: { min: 0, max: 100 }
-    });
-    Slider.create(slider2, {
-      start: [20, 60],
-      connect: [false, true, false],
-      step: 1,
-      range: { min: 0, max: 100 }
-    });
   }
   render() {
     return (

@@ -214,3 +214,29 @@
     transform: translateX(-10px);
   }
 }
+
+@keyframes fade-in-ease{
+  0%{
+    opacity: 0.0;
+  }
+
+  20%{
+    opacity: 0.008;
+  }
+
+  40%{
+    opacity: 0.064;
+  }
+
+  60%{
+    opacity: 0.216;
+  }
+
+  80%{
+    opacity: 0.512;
+  }
+
+  100%{
+    opacity: 1.0;
+  }
+}

@@ -55,22 +55,22 @@ class Description extends React.Component {
           <Row>
             <Col md="8">
               <Button color="link">Default</Button>
-              <Button className="btn-link" color="primary">
+              <Button color="primary">
                 Primary
               </Button>
-              <Button className="btn-link" color="info">
+              <Button color="info">
                 Info
               </Button>
-              <Button className="btn-link" color="success">
+              <Button color="success">
                 Success
               </Button>
-              <Button className="btn-link" color="warning">
+              <Button color="warning">
                 Warning
               </Button>
-              <Button className="btn-link" color="danger">
+              <Button color="danger">
                 Danger
               </Button>
-              <Button className="btn-link" color="neutral">
+              <Button color="neutral">
                 Neutral
               </Button>
             </Col>

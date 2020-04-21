@@ -127,6 +127,10 @@
       top: -50px;
     }
 
+    .background-1 {
+        background-image: url($asset-base-path + "/img/neo.jpg");
+    }
+
     .squares {
       top: 50%;
       right: 18%;

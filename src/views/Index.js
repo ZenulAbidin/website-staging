@@ -23,6 +23,7 @@ import PageHeader from "components/PageHeader/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
+import Description from "views/IndexSections/Description.js";
 import Basics from "views/IndexSections/Basics.js";
 import Navbars from "views/IndexSections/Navbars.js";
 import Tabs from "views/IndexSections/Tabs.js";
@@ -49,11 +50,7 @@ class Index extends React.Component {
         <div className="wrapper">
           <PageHeader />
           <div className="main">
-            <div style={{"text-align": "center"}}>
-              <p className="text-center text-padding">
-                Welcome to my site. Have a look around.
-              </p>
-            </div>
+            <Description />
           </div>
           <Footer />
         </div>

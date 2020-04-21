@@ -107,6 +107,10 @@
     background-color: $info !important;
   }
 
+  &.bg-black {
+    background-color: $black !important;
+  }
+
   &.bg-success {
     background-color: darken($success, 10%) !important;
   }

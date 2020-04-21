@@ -52,8 +52,7 @@ class Description extends React.Component {
         <Container>
           <h3 className="title text-center">Welcome to my site. Have a look around.</h3>
           <h2 className="text-center">Site Links</h2>
-          <Container>
-            <Row>
+          <Row>
             <Col md="8">
               <Button color="link">Default</Button>
               <Button className="btn-link" color="primary">

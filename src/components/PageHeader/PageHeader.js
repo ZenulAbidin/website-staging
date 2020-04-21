@@ -23,16 +23,18 @@ import { Container } from "reactstrap";
 class PageHeader extends React.Component {
   render() {
     return (
-      <div className="page-header header-filter background-1">
-        <Container>
-          <div className="content-center brand">
-            <h1 className="h1-seo">BLK• React</h1>
-            <h3 className="d-none d-sm-block">
-              A beautiful Design System for Bootstrap 4 (reactstrap) and React.
-              It's Free and Open Source.
-            </h3>
-          </div>
-        </Container>
+      <div className="page-header header-filter">
+        <div classname"page-header background-1">
+           <Container>
+             <div className="content-center brand">
+               <h1 className="h1-seo">BLK• React</h1>
+               <h3 className="d-none d-sm-block">
+                 A beautiful Design System for Bootstrap 4 (reactstrap) and React.
+                 It's Free and Open Source.
+               </h3>
+            </div>
+          </Container>
+        </div>
       </div>
     );
   }

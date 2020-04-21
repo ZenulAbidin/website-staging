@@ -15591,7 +15591,8 @@ td.rdtYear:hover {
     /*height: 120px;*/
     /*width: 120px;*/
     background-image: url("../../../../assets/img/neo.jpg");
-    opacity: 0.9;
+    background-size: cover;
+    opacity: 0.5;
     /*top: 310px;*/
     /*right: 390px;*/ }
 }

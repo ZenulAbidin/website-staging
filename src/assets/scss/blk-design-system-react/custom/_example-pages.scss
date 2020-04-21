@@ -31,7 +31,8 @@
 
     .background-1 {
         background-image: url($asset-base-path + "/img/neo.jpg");
-        opacity: 0.9;
+        background-size: cover;
+        opacity: 0.5;
     }
 
     .squares{

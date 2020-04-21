@@ -29,6 +29,11 @@
         }
     }
 
+    .background-1 {
+        background-image: url($asset-base-path + "/img/neo.jpg");
+        opacity: 0.9;
+    }
+
     .squares{
       animation: move-left-right 1s infinite;
       @include linear-gradient($primary-states, $primary);
@@ -125,10 +130,6 @@
       max-width: 41%;
       right: -60px;
       top: -50px;
-    }
-
-    .background-1 {
-        background-image: url($asset-base-path + "/img/neo.jpg");
     }
 
     .squares {

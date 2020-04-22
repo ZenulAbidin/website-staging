@@ -100,8 +100,9 @@ class ComponentsNavbar extends React.Component {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="/"
               tag="a"
+              href="/"
+              onClick={e => e.preventDefault()}
               id="navbar-brand"
             >
               <span>Ali Sherief</span>

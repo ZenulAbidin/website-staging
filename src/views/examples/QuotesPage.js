@@ -128,28 +128,28 @@ class QuotesPage extends React.Component {
               <br/>
               <br/>
               <h1 className="text-center">Miscellaneous quotes</h1>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding">
                 &#8220;Disclaimer: I&apos;m not responsible if these quotes drive you mad,
                 if so, what are you doing on this site anyway?&#8221; - Ali Sherief
               </p>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding">
                 &#8220;Unstoppable.&#8221; - Ali Sherief
               </p>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding">
                 &#8220;The most powerful programmers are the ones who manage to turn a math algorithm
                 into an implementation, and I admire the brilliance of those who manage to do
                 that.&#8221; - Ali Sherief
               </p>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding">
                 &#8220;Bitcoin is the best thing since sliced bread.&#8221; - Ali Sherief
               </p>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding">
                 &#8220;Ignorance is a mighty weapon.&#8221; - Ali Sherief
               </p>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding">
                 &#8220;Perhaps one day these quotes will become famous with me.&#8221; - Ali Sherief
               </p>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding">
                 &#8220;There is the inherently selfish response of ‘I have nothing to hide’. Well it is
                 true that I am not ill. It is true that I am not blind. But I still want to live in a world
                 that has hospitals. I still want to live on a street that has accessibility for blind people.

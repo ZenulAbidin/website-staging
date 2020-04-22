@@ -567,9 +567,9 @@
 
 @media (max-width: 768px) {
     .index-page .background-1 {
-    {
       background-image: url("../../../../assets/img/neo-mobile.jpg");
-      background-size: cover; }
+      background-size: cover;
+    }
 }
 
 @include media-breakpoint-down(md){

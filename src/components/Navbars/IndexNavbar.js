@@ -235,7 +235,7 @@ class ComponentsNavbar extends React.Component {
                 <Button
                   className="nav-link d-none d-lg-block"
                   color="default"
-                  onClick={this.scrollToDownload}
+                  href="/about-me#contact"
                 >
                   <i className="tim-icons icon-send" /> Contact me
                 </Button>

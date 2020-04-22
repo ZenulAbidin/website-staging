@@ -128,7 +128,7 @@ class QuotesPage extends React.Component {
               <br/>
               <br/>
               <h1 className="text-center">Miscellaneous quotes</h1>
-              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+              <p className="profile-description" className="blockquote blockquote-info text-center text-padding ">
                 &#8220;Disclaimer: I&apos;m not responsible if these quotes drive you mad,
                 if so, what are you doing on this site anyway?&#8221; - Ali Sherief
               </p>

@@ -128,46 +128,36 @@ class QuotesPage extends React.Component {
               <br/>
               <br/>
               <h1 className="text-center">Miscellaneous quotes</h1>
-              <Container>
-                <Row>
-                  <Col sm="2" md="4" lg="4">
-                  </Col>
-                  <Col sm="auto" md="auto" lg="auto">
-                    <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                      &#8220;Disclaimer: I&apos;m not responsible if these quotes drive you mad,
-                      if so, what are you doing on this site anyway?&#8221; - Ali Sherief
-                    </p>
-                    <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                      &#8220;Unstoppable.&#8221; - Ali Sherief
-                    </p>
-                    <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                      &#8220;The most powerful programmers are the ones who manage to turn a math algorithm
-                      into an implementation, and I admire the brilliance of those who manage to do
-                      that.&#8221; - Ali Sherief
-                    </p>
-                    <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                      &#8220;Bitcoin is the best thing since sliced bread.&#8221; - Ali Sherief
-                    </p>
-                    <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                      &#8220;Ignorance is a mighty weapon.&#8221; - Ali Sherief
-                    </p>
-                    <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                      &#8220;Perhaps one day these quotes will become famous with me.&#8221; - Ali Sherief
-                    </p>
-                    <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                      &#8220;There is the inherently selfish response of ‘I have nothing to hide’. Well it is
-                      true that I am not ill. It is true that I am not blind. But I still want to live in a world
-                      that has hospitals. I still want to live on a street that has accessibility for blind people.
-                      And it is also the case that I want to live in a world where everyone has privacy, thus dignity,
-                      confidentiality and integrity in their daily lives, without having to ask for it, to beg it from a master.
-                      Because it is the case that when you ask someone for those things, they may not grant them. And then you will know
-                      that you are not free.&#8221; - Jacob Appelbaum
-                    </p>
-                  </Col>
-                  <Col sm="2" md="4" lg="4">
-                  </Col>
-                </Row>
-              </Container>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;Disclaimer: I&apos;m not responsible if these quotes drive you mad,
+                if so, what are you doing on this site anyway?&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;Unstoppable.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;The most powerful programmers are the ones who manage to turn a math algorithm
+                into an implementation, and I admire the brilliance of those who manage to do
+                that.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;Bitcoin is the best thing since sliced bread.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;Ignorance is a mighty weapon.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;Perhaps one day these quotes will become famous with me.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;There is the inherently selfish response of ‘I have nothing to hide’. Well it is
+                true that I am not ill. It is true that I am not blind. But I still want to live in a world
+                that has hospitals. I still want to live on a street that has accessibility for blind people.
+                And it is also the case that I want to live in a world where everyone has privacy, thus dignity,
+                confidentiality and integrity in their daily lives, without having to ask for it, to beg it from a master.
+                Because it is the case that when you ask someone for those things, they may not grant them. And then you will know
+                that you are not free.&#8221; - Jacob Appelbaum
+              </p>
             </div>
           </div>
         </div>

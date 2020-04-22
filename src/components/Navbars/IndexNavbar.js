@@ -100,8 +100,7 @@ class ComponentsNavbar extends React.Component {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              to="/"
-              tag={Link}
+              href="/"
               id="navbar-brand"
             >
               <span>Ali Sherief</span>
@@ -126,7 +125,7 @@ class ComponentsNavbar extends React.Component {
             <div className="navbar-collapse-header">
               <Row>
                 <Col className="collapse-brand" xs="6">
-                  <a href="/">
+                  <a href="/" onClick={e => e.preventDefault()}>
                     Ali Sherief
                   </a>
                 </Col>

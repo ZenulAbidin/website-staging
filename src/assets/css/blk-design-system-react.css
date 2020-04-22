@@ -15597,6 +15597,13 @@ td.rdtYear:hover {
     /*right: 390px;*/ }
 }
 
+
+@media (max-width: 767.98px) {
+    .index-page .background-1 {
+    {
+      background-image: url("../../../../assets/img/neo-mobile.jpg");
+      background-size: cover; } }
+
 .footer {
   border-color: #8c3db9; }
 

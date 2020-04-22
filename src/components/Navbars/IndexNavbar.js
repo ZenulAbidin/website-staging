@@ -106,9 +106,6 @@ class ComponentsNavbar extends React.Component {
             >
               <span>Ali Sherief</span>
             </NavbarBrand>
-            <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              Template by BLK• Design System React
-            </UncontrolledTooltip>
             <button
               aria-expanded={this.state.collapseOpen}
               className="navbar-toggler navbar-toggler"

@@ -127,8 +127,11 @@ class QuotesPage extends React.Component {
               <br/>
               <br/>
               <br/>
+            <Container>
+              <Row>
+                <Col md="12">
               <h1 className="text-center">Miscellaneous quotes</h1>
-              <p className="profile-description" className="blockquote blockquote-info text-center text-padding ">
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;Disclaimer: I&apos;m not responsible if these quotes drive you mad,
                 if so, what are you doing on this site anyway?&#8221; - Ali Sherief
               </p>
@@ -158,6 +161,9 @@ class QuotesPage extends React.Component {
                 Because it is the case that when you ask someone for those things, they may not grant them. And then you will know
                 that you are not free.&#8221; - Jacob Appelbaum
               </p>
+                </Col>
+              </Row>
+            </Container>
             </div>
           </div>
         </div>

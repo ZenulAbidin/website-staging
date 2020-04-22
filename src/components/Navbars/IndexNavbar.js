@@ -101,6 +101,7 @@ class ComponentsNavbar extends React.Component {
           <div className="navbar-translate">
             <NavbarBrand
               href="/"
+              tag="a"
               id="navbar-brand"
             >
               <span>Ali Sherief</span>

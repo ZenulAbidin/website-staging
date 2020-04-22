@@ -107,8 +107,8 @@ class Footer extends React.Component {
             </Col>
           </Row>
         </Container>
-        <p>Template by <a href="https://demos.creative-tim.com/blk-design-system-react/#/">BLK• Design System React</a></p>
-        <p>Tips: bc1q4djl6pxt90nfs8fufdul26ufxukxxrczsfjj0h</p>
+        <p className="text-center">Template by <a href="https://demos.creative-tim.com/blk-design-system-react/#/">BLK• Design System React</a></p>
+        <p className="text-center">Tips: bc1q4djl6pxt90nfs8fufdul26ufxukxxrczsfjj0h</p>
       </footer>
     );
   }

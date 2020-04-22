@@ -572,6 +572,13 @@
     }
 }
 
+@media (max-width: 576px) {
+    .index-page .background-1 {
+      background-image: url("../../../../assets/img/neo-iphone.jpg");
+      background-size: cover;
+    }
+}
+
 @include media-breakpoint-down(md){
   .section:nth-of-type(2) {
     .path {

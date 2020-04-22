@@ -28,7 +28,7 @@ class PageHeader extends React.Component {
            <Container>
              <div className="content-center brand">
                <h1 className="h1-seo">I am <b>Ali Sherief</b>,</h1>
-               <h3 className="d-none d-sm-block">
+               <h3 className="d-sm-block">
                  Insert catchphrase here.
                </h3>
             </div>

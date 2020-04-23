@@ -104,10 +104,10 @@ class Description extends React.Component {
         </Container>
         <Container>
           <h3 className="title text-center">Woah woah woah. You&apos;re a hacker?</h3>
-          <p>To clear the information, I am <strong>not</strong>&quot;a person who uses computers to gain unauthorized access to data&quot;. What I am is a brilliant scientist skilled computer expert
+          <p className="text-center">To clear the information, I am <strong>not</strong>&quot;a person who uses computers to gain unauthorized access to data&quot;. What I am is a brilliant scientist skilled computer expert
             (insert genius word here) who uses my technical knowledge to overcome a problem. Just your friendly reminder that not all hackers are bad, in fact, <em>most</em> hackers aren&apos;t bad, they have designed
             the technology that you use every day.</p>
-          <p>With <em>this</em> meaning of the word &quot;hacker&quot;, here are some hackers you may have heard of. In the interest of being inclusive, I also have a list of female hackers as well.</p>
+          <p className="text-center">With <em>this</em> meaning of the word &quot;hacker&quot;, here are some hackers you may have heard of. In the interest of being inclusive, I also have a list of female hackers as well.</p>
            <ul>
              <li><Button className="btn-link" color="primary" href="/about-me">Bill Gates</Button> (made Windows)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Steve Jobs</Button> (made Apple)</li>
@@ -129,60 +129,60 @@ class Description extends React.Component {
           <p className="text-center">All business leaders are also hackers, they don&apos;t work 8 hours at night making household names for nothing. Also this:</p>
           <Row>
             <Col md="12">
-              <p className="blockquote blockquote-info">
+              <p className="text-center" className="blockquote blockquote-info">
                 There is a community, a shared culture, of expert programmers and networking wizards that traces its history back through decades to the first time-sharing minicomputers and the earliest ARPAnet experiments. The members of this culture originated the term ‘hacker’.
                 Hackers built the Internet. Hackers made the Unix operating system what it is today. Hackers make the World Wide Web work. If you are part of this culture, if you have contributed to it and other people in it know who you are and call you a hacker, you&apos;re a hacker.
-
+                <br/>
                 The hacker mind-set is not confined to this software-hacker culture. There are people who apply the hacker attitude to other things, like electronics or music — actually, you can find it at the highest levels of any science or art. Software hackers recognize these kindred
                 spirits elsewhere and may call them ‘hackers’ too — and some claim that the hacker nature is really independent of the particular medium the hacker works in. But in the rest of this document we will focus on the skills and attitudes of software hackers, and the traditions
                 of the shared culture that originated the term ‘hacker’.
-
+                <br/>
                 There is another group of people who loudly call themselves hackers, but aren&apos;t. These are people (mainly adolescent males) who get a kick out of breaking into computers and phreaking the phone system. Real hackers call these people ‘crackers’ and want nothing to do with
                 them. Real hackers mostly think crackers are lazy, irresponsible, and not very bright, and object that being able to break security doesn&apos;t make you a hacker any more than being able to hotwire cars makes you an automotive engineer. Unfortunately, many journalists and writers
                 have been fooled into using the word ‘hacker’ to describe crackers; this irritates real hackers no end.
-
+                <br/>
                 The basic difference is this: hackers build things, crackers break them. (<Button className="btn-link" color="primary" href="http://www.catb.org/~esr/faqs/hacker-howto.html#what_is">Source</Button>)
               </p>
             </Col>
           </Row>
-          <p>Crackers are people who shamelessly use the word hacker to promote their illegal activities and malware. Many of them are actually so-called &quot;script kiddies&quot; who cannot even compute the integral of x^2. Unlike <em>real</em> hackers,
+          <p className="text-center">Crackers are people who shamelessly use the word hacker to promote their illegal activities and malware. Many of them are actually so-called &quot;script kiddies&quot; who cannot even compute the integral of x^2. Unlike <em>real</em> hackers,
             who have to know this because their software depends on this calculation. You will also catch crackers having a serious lack of volabulary, replacing letters with numbers inappropriately such as elite --&gt; l33t. I imagine one would react, &quot;what is
             this blantant mispelling of the English language? A third grader must have wrote this.&gt; You will also catch them saying nonsensical words such as &quot;LOL&quot;, &quot;lmao&quot; and &quot;kek&quot; that average people don&apos;t understand.</p>
-          <p>So if you ever get to meet any bad hackers, call them <strong>crackers</strong> instead. If they ask why, tell them I said so, let them deal with me 😎</p>
+          <p className="text-center">So if you ever get to meet any bad hackers, call them <strong>crackers</strong> instead. If they ask why, tell them I said so, let them deal with me 😎</p>
         </Container>
         <Container>
           <h3 className="title text-center">...I&apos;m still not convinced that you&apos;re a &quot;good&quot; hacker.</h3>
-          <p>Well, I heard on the news that some guy distributed malware to everyone&apos;s devices. I also heard on the news about this guy who makes a product that everyone wants to use.</p>
+          <p className="text-center">Well, I heard on the news that some guy distributed malware to everyone&apos;s devices. I also heard on the news about this guy who makes a product that everyone wants to use.</p>
         </Container>
         <Container>
           <h3 className="title text-center">But you don&quot;t have a product.</h3>
-          <p>Sure I do. It just hasn&apos;t been invented yet. I just need some time to do my thing, and the universe will send lieutenants to me. Besides, wouldn&apos;t you call Neo a protagonist?</p>
+          <p className="text-center">Sure I do. It just hasn&apos;t been invented yet. I just need some time to do my thing, and the universe will send lieutenants to me. Besides, wouldn&apos;t you call Neo a protagonist?</p>
         </Container>
         <Container>
           <h3 className="title text-center">Can you hack my friend&apos;s Facebook account for me?</h3>
-          <p><em>What.</em></p>
+          <p className="text-center"><em>What.</em></p>
           <p className="text-center">Listen man, I don&apos;t hack people&apos;s accounts. I already told you, I&apos;m a good hacker.</p>
         </Container>
         <Container>
           <h3 className="title text-center">Can you help me turn on someone&apos;s webcam for me?</h3>
-          <p><em>What the hell.</em></p>
-          <p>See above question.</p>
+          <p className="text-center"><em>What the hell.</em></p>
+          <p className="text-center">See above question.</p>
         </Container>
         <Container>
           <h3 className="title text-center">I&apos;ve only seen hackers banging keys on laptops.</h3>
-          <p>Fine. Here&apos;s the deal. If I get two <Button className="btn-link" color="primary" href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</Button>, you start calling a real hacker, OK? Good.</p>
+          <p className="text-center">Fine. Here&apos;s the deal. If I get two <a href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</a>, you start calling a real hacker, OK? Good.</p>
         </Container>
         <Container>
           <h3 className="title text-center">I still think you&apos;re a bad hacker.</h3>
-          <p>Fine. Here&apos;s the deal. If I get two <Button className="btn-link" color="primary" href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</Button>, you start calling a real hacker, OK? Good.</p>
+          <p className="text-center">Fine. Here&apos;s the deal. If I get two <a href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</a>, you start calling a real hacker, OK? Good.</p>
         </Container>
         <Container>
           <h3 className="title text-center">Ahem, who are you?</h3>
-          <p>See my <Button className="btn-link" color="primary" href="/about-me">profile</Button> for details.</p>
+          <p className="text-center">See my <a href="/about-me">profile</a> for details.</p>
         </Container>
         <Container>
           <h3 className="title text-center">Nice to meet you, by the way.</h3>
-          <p><Button className="btn-link" color="primary" href="https://www.youtube.com/watch?v=lrdaj1W0hhE">May the Force be with you.</Button></p>
+          <p className="text-center"><a href="https://www.youtube.com/watch?v=lrdaj1W0hhE">May the Force be with you.</a></p>
         </Container>
       </div>
     );

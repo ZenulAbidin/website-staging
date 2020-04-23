@@ -112,7 +112,7 @@ class Description extends React.Component {
              <li><Button className="btn-link" color="primary" href="/about-me">Bill Gates</Button> (made Windows)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Steve Jobs</Button> (made Apple)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Linus Torvalds</Button> (made the penguin system that all businesses use in their technology)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Tim Berners-Lee</Button> (made the internet)
+             <li><Button className="btn-link" color="primary" href="/about-me">Tim Berners-Lee</Button> (made the internet)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Alan Kay</Button> (made laptops a thing)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Jeff Bezos</Button> (Amazon)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Larry Page</Button> (Google)</li>

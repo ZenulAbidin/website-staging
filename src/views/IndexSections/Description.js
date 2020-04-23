@@ -109,7 +109,7 @@ class Description extends React.Component {
             the technology that you use every day.</p>
           <p className="text-center">With <em>this</em> meaning of the word &quot;hacker&quot;, here are some hackers you may have heard of. In the interest of being inclusive, I also have a list of female hackers as well.</p>
            <ul>
-             <Button className="btn-link" color="primary" href="/about-me">Bill Gates</Button> (made Windows)
+             <Button className="btn-link" color="primary" href="/about-me">Bill Gates</Button> (made Windows)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Steve Jobs</Button> (made Apple)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Linus Torvalds</Button> (made the penguin system that all businesses use in their technology)</li>
              <li><Button className="btn-link" color="primary" href="/about-me">Tim Berners-Lee</Button> (made the internet)

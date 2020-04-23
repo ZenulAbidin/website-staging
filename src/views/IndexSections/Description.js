@@ -70,9 +70,6 @@ class Description extends React.Component {
               <Button color="danger">
                 Danger
               </Button>
-              <Button color="neutral">
-                Neutral
-              </Button>
             </Col>
           </Row>
         </Container>
@@ -80,7 +77,6 @@ class Description extends React.Component {
           <h3 className="title text-center">Take a look at some useful Bitcointalk links while you're here.</h3>
           <Row>
             <Col>
-              <Button color="default">Default</Button>
               <Button color="primary" href="http://loyce.club/archive/topics/">
                 Topics list by LoyceV
               </Button>
@@ -96,7 +92,7 @@ class Description extends React.Component {
               <Button color="danger" href="https://bitcointalk.org/index.php?topic=703657.0">
                 Rules (newbies read)
               </Button>
-              <Button color="neutral" href="https://bpip.org/">
+              <Button color="default" href="https://bpip.org/">
                 BPIP member stats
               </Button>
             </Col>
@@ -172,12 +168,8 @@ class Description extends React.Component {
           <p className="text-center">See above question.</p>
         </Container>
         <Container>
-          <h3 className="title text-center">I&apos;ve only seen hackers banging keys on laptops.</h3>
-          <p className="text-center">Fine. Here&apos;s the deal. If I get two <a href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</a>, you start calling a real hacker, OK? Good.</p>
-        </Container>
-        <Container>
-          <h3 className="title text-center">I still think you&apos;re a bad hacker.</h3>
-          <p className="text-center">Fine. Here&apos;s the deal. If I get two <a href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</a>, you start calling a real hacker, OK? Good.</p>
+          <h3 className="title text-center">I still think you&apos;re a bad hacker. I&apos;ve only seen hackers banging keys on laptops.</h3>
+          <p className="text-center">Fine. Here&apos;s the deal. If I get two <a href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</a>, you start calling a good hacker, OK? Good.</p>
         </Container>
         <Container>
           <h3 className="title text-center">Ahem, who are you?</h3>
@@ -186,6 +178,7 @@ class Description extends React.Component {
         <Container>
           <h3 className="title text-center">Nice to meet you, by the way.</h3>
           <p className="text-center"><a href="https://www.youtube.com/watch?v=lrdaj1W0hhE">May the Force be with you.</a></p>
+          <p className="text-center">And while you&quot;re here, I invite you to join the <a href="https://dev.to">developer hacker cult</a>.</p>
         </Container>
       </div>
     );

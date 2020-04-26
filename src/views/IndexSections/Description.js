@@ -105,22 +105,22 @@ class Description extends React.Component {
             the technology that you use every day.</p>
           <p className="text-center">With <em>this</em> meaning of the word &quot;hacker&quot;, here are some hackers you may have heard of. In the interest of being inclusive, I also have a list of female hackers as well.</p>
            <ul>
-             <li><Button className="btn-link" color="primary" href="/about-me">Bill Gates</Button> (made Windows)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Steve Jobs</Button> (made Apple)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Linus Torvalds</Button> (made the penguin system that all businesses use in their technology)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Tim Berners-Lee</Button> (made the internet)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Alan Kay</Button> (made laptops a thing)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Jeff Bezos</Button> (Amazon)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Larry Page</Button> (Google)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Sergey Brin</Button> (also Google)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Karlheinz Brandenburg</Button> (invented MP3 files)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">James D. Johnston</Button> (also invented MP3 files)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Meg Whitman</Button> (eBay) (see, there are women hackers too)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Bill Joy</Button> (made a popular text editor)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Mark Zuckerberg</Button> (Facebook)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Sheryl Sandberg</Button> (Facebook)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Susan Wojcicki</Button> (Youtube)</li>
-             <li><Button className="btn-link" color="primary" href="/about-me">Ginni Rometty</Button> (IBM)</li>
+             <li><a href="/about-me">Bill Gates</a> (made Windows)</li>
+             <li><a href="/about-me">Steve Jobs</a> (made Apple)</li>
+             <li><a href="/about-me">Linus Torvalds</a> (made the penguin system that all businesses use in their technology)</li>
+             <li><a href="/about-me">Tim Berners-Lee</a> (made the internet)</li>
+             <li><a href="/about-me">Alan Kay</a> (made laptops a thing)</li>
+             <li><a href="/about-me">Jeff Bezos</a> (Amazon)</li>
+             <li><a href="/about-me">Larry Page</a> (Google)</li>
+             <li><a href="/about-me">Sergey Brin</a> (also Google)</li>
+             <li><a href="/about-me">Karlheinz Brandenburg</a> (invented MP3 files)</li>
+             <li><a href="/about-me">James D. Johnston</a> (also invented MP3 files)</li>
+             <li><a href="/about-me">Meg Whitman</a> (eBay) (see, there are women hackers too)</li>
+             <li><a href="/about-me">Bill Joy</a> (made a popular text editor)</li>
+             <li><a href="/about-me">Mark Zuckerberg</a> (Facebook)</li>
+             <li><a href="/about-me">Sheryl Sandberg</a> (Facebook)</li>
+             <li><a href="/about-me">Susan Wojcicki</a> (Youtube)</li>
+             <li><a href="/about-me">Ginni Rometty</a> (IBM)</li>
            </ul>
           <p className="text-center">All business leaders are also hackers, they don&apos;t work 8 hours at night making household names for nothing. Also this:</p>
           <Row>

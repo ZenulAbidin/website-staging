@@ -239,7 +239,7 @@ class ProfilePage extends React.Component {
             </div>
             <Container>
               <Row className="justify-content-between">
-                <Col lg={4} md={4} sm={12}>
+                <Col>
                   <Card className="ml-auto mr-auto" className="card-list card-plain">
                     <CardHeader>
                       <img
@@ -274,7 +274,7 @@ class ProfilePage extends React.Component {
                     </CardBody>
                   </Card>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col>
                   <Card className="ml-auto mr-auto" className="card-list card-plain">
                     <CardHeader>
                       <img

@@ -122,9 +122,9 @@ class ProfilePage extends React.Component {
             />
             <Container className="align-items-center">
               <Row>
-                <Col lg={4} md={4} sm={2}>
+                <Col lg={2} md={1} sm={1}>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={8} md={10} sm={10}>
                    <h1 className="text-center" style={{"margin-bottom": "150px"}}>About me</h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>

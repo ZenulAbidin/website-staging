@@ -186,7 +186,7 @@ class Description extends React.Component {
         </Container>
         <Container>
           <div className="text-center">
-              <img alt="..."  width="340" height="340" src={require("assets/img/morpheus.png")} />
+              <img alt="..."  width="320" height="320" src={require("assets/img/morpheus.png")} />
           </div>
           <p className="text-center">So which one will it be?</p>
           <Row center="md">

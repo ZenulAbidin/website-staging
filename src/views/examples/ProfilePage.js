@@ -109,7 +109,7 @@ class ProfilePage extends React.Component {
       <>
         <IndexNavbar />
         <div className="wrapper">
-          <div className="page-header" style={{"max-height": "none"}}>
+          <div className="page-header" style={{"maxHeight": "none"}}>
             <img
               alt="..."
               className="dots"
@@ -125,7 +125,7 @@ class ProfilePage extends React.Component {
                 <Col lg={2} md={1} sm={1}>
                 </Col>
                 <Col lg={8} md={10} sm={10}>
-                   <h1 className="text-center" style={{"margin-bottom": "150px"}}>About me</h1>
+                   <h1 className="text-center" style={{"marginBottom": "150px"}}>About me</h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>
                       <img
@@ -188,7 +188,7 @@ class ProfilePage extends React.Component {
             </Container>
           </div>
           <div className="section" id="skills">
-            <div style={{"text-align": "center"}}>
+            <div style={{"textAlign": "center"}}>
               <h1 className="text-center">Skills</h1>
               <p className="profile-description" className="text-center text-padding">
                 The technologies that I know like the back of my hand, in no particular order.
@@ -209,7 +209,7 @@ class ProfilePage extends React.Component {
             </div>
           </div>
           <div className="section" id="milestones">
-           <div style={{"text-align": "center"}}>
+           <div style={{"textAlign": "center"}}>
               <h1 className="text-center">Milestones</h1>
               <p className="profile-description" className="text-center text-padding">
                 Some of the more remarkable contributions I made and goals achieved for the betterment of mankind.
@@ -231,7 +231,7 @@ class ProfilePage extends React.Component {
             </div>
           </div>
           <div className="section" id="projects">
-           <div style={{"text-align": "center"}}>
+           <div style={{"textAlign": "center"}}>
               <h1 className="text-center">Projects</h1>
               <p className="profile-description" className="text-center text-padding">
                 Here are some of the software projects I completed or am currently working on.

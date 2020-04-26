@@ -136,7 +136,7 @@ class ProfilePage extends React.Component {
                       <h4 className="title">Ali Sherief</h4>
                     </CardHeader>
                     <CardBody>
-                  <p className="profile-description text-center">
+                  <p className="profile-description">
                     I&apos;m a 20 year old developer based in Khartoum, Sudan. I do many things actually. From writing a missing
                     math library to drawing mediocre artwork to web design to writing to scraping and
                     curating datasets to 3D modelling, you&apos;ll find me anywhere there&apos;s
@@ -250,7 +250,7 @@ class ProfilePage extends React.Component {
                       <h3 className="title">ZGLshapes</h3>
                     </CardHeader>
                     <CardBody>
-                      <p className="profile-description text-center">
+                      <p className="profile-description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
                       </p>
                       <div className="btn-wrapper pt-3">
@@ -285,7 +285,7 @@ class ProfilePage extends React.Component {
                       <h3 className="title">ScamWhammer</h3>
                     </CardHeader>
                     <CardBody>
-                      <p className="profile-description text-center">
+                      <p className="profile-description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
                       </p>
                       <div className="btn-wrapper pt-3">

@@ -30,10 +30,6 @@ import "react-circular-progressbar/dist/styles.css";
 // Animation
 import ChangingProgressProvider from "./ChangingProgressProvider";
 
-// Radial separators
-import RadialSeparators from "./RadialSeparators";
-
-
 class PageHeader extends React.Component {
   render() {
     return (

@@ -46,7 +46,7 @@ class Footer extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/sitemap">
+                  <NavLink href="/sitemap">
                     Sitemap
                   </NavLink>
                 </NavItem>

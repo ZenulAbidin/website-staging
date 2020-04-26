@@ -124,7 +124,7 @@ class ProfilePage extends React.Component {
               <Row>
                 <Col lg={4} md={4} sm={2}>
                 </Col>
-                <Col lg={4} md={4} sm={8}>
+                <Col lg={4} md={4} sm={12}>
                    <h1 className="text-center" style={{"margin-bottom": "150px"}}>About me</h1>
                   <Card className="ml-auto mr-auto" className="card-coin card-plain">
                     <CardHeader>

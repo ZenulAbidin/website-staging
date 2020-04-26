@@ -186,11 +186,13 @@ class Description extends React.Component {
         </Container>
         <Container>
           <div className="text-center">
-              <img alt="..."  width="300" height="300" src={require("assets/img/morpheus.png")} />
+              <img alt="..."  width="340" height="340" src={require("assets/img/morpheus.png")} />
           </div>
           <p className="text-center">So which one will it be?</p>
           <Row center="md">
-            <Col md="5">
+            <Col md="6" sm="3">
+            </Col>
+            <Col>
               <Button color="danger" href="/about-me#projects">
                 Let&apos;s collab
               </Button>

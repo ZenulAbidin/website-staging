@@ -316,7 +316,7 @@ class ProfilePage extends React.Component {
               <h1 className="text-center">Contact</h1>
               <Container>
                 <Row className="row-grid align-items-center my-md">
-                  <Col lg="6">
+                  <Col>
                     <h3 className="text-info font-weight-light mb-2">
                       Thank you for visiting my site!
                     </h3>
@@ -324,7 +324,7 @@ class ProfilePage extends React.Component {
                       Let's get in touch on any of these platforms.
                     </h4>
                   </Col>
-                  <Col className="text-lg-center btn-wrapper" lg="6">
+                  <Col className="text-lg-center btn-wrapper" lg="6" md="6" sm="12" xs="12">
                     <Button
                       className="btn-icon btn-round"
                       color="twitter"

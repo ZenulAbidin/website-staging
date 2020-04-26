@@ -185,7 +185,9 @@ class Description extends React.Component {
           <p className="text-center"><strong>I am commited to using every lat minute of my time to finishing my endevours, because my machine is very unstable, and I could involuntarily go offline any day. So use me while you can.</strong></p>
         </Container>
         <Container>
-          <img className="text-center" alt="..."  width="300" height="300" src={require("assets/img/morpheus.png")} />
+          <div className="text-center">
+              <img alt="..."  width="300" height="300" src={require("assets/img/morpheus.png")} />
+          </div>
           <p className="text-center">So which one will it be?</p>
           <Row>
             <Col md="12">

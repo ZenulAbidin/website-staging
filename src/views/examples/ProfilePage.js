@@ -154,7 +154,7 @@ class ProfilePage extends React.Component {
                       <i className="fab fa-twitter" />
                     </Button>
                     <UncontrolledTooltip delay={0} target="tooltip639225725">
-                      Follow us
+                      Follow me
                     </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"

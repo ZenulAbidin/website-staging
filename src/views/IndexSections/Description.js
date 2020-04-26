@@ -182,7 +182,7 @@ class Description extends React.Component {
         </Container>
         <Container>
           <h3 className="title text-center"><em>Ultima Ratio</em></h3>
-          <p className="text-center"><strong>I am commited to using every lat minute of my time to finishing my endevours, because my machine is very unstable, and I could involuntarily go offline any day. So use me while you can.</strong></p>
+          <p className="text-center">I am commited to using every last minute of my time to finishing my endevours, because my machine is very unstable (there&apos;s a backstory behind that if you&apos;re interested), and I could involuntarily go offline any day. So use me while you can.</p>
         </Container>
         <Container>
           <div className="text-center">

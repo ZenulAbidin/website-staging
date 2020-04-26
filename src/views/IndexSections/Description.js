@@ -150,11 +150,11 @@ class Description extends React.Component {
           <p className="text-center">So if you ever get to meet any bad hackers, call them <strong>crackers</strong> instead. If they ask why, tell them I said so, let them deal with me 😎</p>
         </Container>
         <Container>
-          <h3 className="title text-center">...I&apos;m still not convinced that you&apos;re a &quot;good&quot; hacker.</h3>
+          <h3 className="title text-center">I&apos;m still not convinced that you&apos;re a &quot;good&quot; hacker.</h3>
           <p className="text-center">Well, I heard on the news that some guy distributed malware to everyone&apos;s devices. I also heard on the news about this guy who makes a product that everyone wants to use.</p>
         </Container>
         <Container>
-          <h3 className="title text-center">But you don&quot;t have a product.</h3>
+          <h3 className="title text-center">But you don&apos;t have a product.</h3>
           <p className="text-center">Sure I do. It just hasn&apos;t been invented yet. I just need some time to do my thing, and the universe will send lieutenants to me. Besides, wouldn&apos;t you call Neo a protagonist?</p>
         </Container>
         <Container>
@@ -178,7 +178,24 @@ class Description extends React.Component {
         <Container>
           <h3 className="title text-center">Nice to meet you, by the way.</h3>
           <p className="text-center"><a href="https://www.youtube.com/watch?v=lrdaj1W0hhE">May the Force be with you.</a></p>
-          <p className="text-center">And while you&quot;re here, I invite you to join the <a href="https://dev.to">developer hacker cult</a>.</p>
+          <p className="text-center">And while you&apos;re here, I invite you to join the <a href="https://dev.to">developer hacker cult</a>.</p>
+        <Container>
+          <h3 className="title text-center"><em>Ultima Ratio</em></h3>
+          <p className="text-center"><strong>I am commited to using every lat minute of my time to finishing my endevours, because my machine is very unstable, and I could involuntarily go offline any day. So use me while you can.</strong></p>
+        </Container>
+        <Container>
+          <img alt="..."  width="300" height="300" src={require("assets/img/path1.png")} />
+          <p className="text-center">So which one will it be?</p>
+          <Row>
+            <Col>
+              <Button color="danger" href="/about-me#projects">
+                Let&apos;s collab
+              </Button>
+              <Button color="info" href="https://google.com">
+                Exit
+              </Button>
+            </Col>
+          </Row>
         </Container>
       </div>
     );

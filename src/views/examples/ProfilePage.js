@@ -131,15 +131,15 @@ class ProfilePage extends React.Component {
                       <img
                         alt="..."
                         className="img-center img-fluid rounded-circle"
-                        src={require("assets/img/mike.jpg")}
+                        src={require("assets/img/me.png")}
                       />
                       <h4 className="title">Ali Sherief</h4>
                     </CardHeader>
                     <CardBody>
                   <p className="profile-description">
-                    I'm a 20 year old developer based in Khartoum, Sudan. I do many things actually. From writing a missing
+                    I&apos;m a 20 year old developer based in Khartoum, Sudan. I do many things actually. From writing a missing
                     math library to drawing mediocre artwork to web design to writing to scraping and
-                    curating datasets to 3D modelling, you'll find me anywhere there's
+                    curating datasets to 3D modelling, you&apos;ll find me anywhere there&apos;s
                     passion. I guess you could also call me a 10X developer because I do
                     the work that no one wants to do.
                   </p>
@@ -245,9 +245,9 @@ class ProfilePage extends React.Component {
                       <img
                         alt="..."
                         className="img-center img-fluid"
-                        src={require("assets/img/mike.jpg")}
+                        src={require("assets/img/zglshapes.png")}
                       />
-                      <h3 className="title">Foobar</h3>
+                      <h3 className="title">ZGLshapes</h3>
                     </CardHeader>
                     <CardBody>
                       <p className="profile-description">
@@ -280,79 +280,9 @@ class ProfilePage extends React.Component {
                       <img
                         alt="..."
                         className="img-center img-fluid"
-                        src={require("assets/img/mike.jpg")}
+                        src={require("assets/img/scamwhammer.png")}
                       />
-                      <h3 className="title">Foobar II</h3>
-                    </CardHeader>
-                    <CardBody>
-                      <p className="profile-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
-                      </p>
-                      <div className="btn-wrapper pt-3">
-                        <Button
-                          className="btn-simple"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="tim-icons icon-book-bookmark" /> More info
-                        </Button>
-                        <Button
-                          className="btn-simple"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="tim-icons icon-bulb-63" /> Check it!
-                        </Button>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-                <Col lg={4} md={4} sm={12}>
-                  <Card className="ml-auto mr-auto" className="card-list card-plain">
-                    <CardHeader>
-                      <img
-                        alt="..."
-                        className="img-center img-fluid"
-                        src={require("assets/img/mike.jpg")}
-                      />
-                      <h3 className="title">Foobar III</h3>
-                    </CardHeader>
-                    <CardBody>
-                      <p className="profile-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
-                      </p>
-                      <div className="btn-wrapper pt-3">
-                        <Button
-                          className="btn-simple"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="tim-icons icon-book-bookmark" /> More info
-                        </Button>
-                        <Button
-                          className="btn-simple"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="tim-icons icon-bulb-63" /> Check it!
-                        </Button>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
-                <Col lg={4} md={4} sm={12}>
-                  <Card className="ml-auto mr-auto" className="card-list card-plain">
-                    <CardHeader>
-                      <img
-                        alt="..."
-                        className="img-center img-fluid"
-                        src={require("assets/img/mike.jpg")}
-                      />
-                      <h3 className="title">Foobar IV</h3>
+                      <h3 className="title">ScamWhammer</h3>
                     </CardHeader>
                     <CardBody>
                       <p className="profile-description">

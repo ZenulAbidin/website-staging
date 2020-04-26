@@ -132,8 +132,8 @@ class QuotesPage extends React.Component {
                 <Col md="12">
               <h1 className="text-center">Miscellaneous quotes</h1>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                &#8220;Disclaimer: I&apos;m not responsible if these quotes drive you mad,
-                if so, what are you doing on this site anyway?&#8221; - Ali Sherief
+                &#8220;Disclaimer: I&apos;m not responsible if these quotes drive you mad.
+                If so, what are you doing on this site anyway?&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;Unstoppable.&#8221; - Ali Sherief
@@ -147,7 +147,14 @@ class QuotesPage extends React.Component {
                 &#8220;Bitcoin is the best thing since sliced bread.&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;How shameful that website templates like this are being used in HYIP scams. Let&apos;s hope
+                this website turns out to be different.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;Ignorance is a mighty weapon.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;Be proud of this technological hero you&apos;ve constructed.&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;I trust the people who help me. I love the people who save me.&#8221; - Ali Sherief
@@ -160,6 +167,9 @@ class QuotesPage extends React.Component {
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;Perhaps one day these quotes will become famous with me.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;FUTURE SO BRIGHT, I NEED SUNGLASSES&#8221; - BiosPlus
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;There is the inherently selfish response of ‘I have nothing to hide’. Well it is

@@ -190,7 +190,7 @@ class Description extends React.Component {
           </div>
           <p className="text-center">So which one will it be?</p>
           <Row center="md">
-            <Col>
+            <Col md="5">
             </Col>
             <Col>
               <Button color="danger" href="/about-me#projects">

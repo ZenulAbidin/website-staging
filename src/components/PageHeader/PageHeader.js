@@ -20,6 +20,20 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 
+// Import react-circular-progressbar module and styles
+import {
+  CircularProgressbar,
+  buildStyles
+} from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+
+// Animation
+import ChangingProgressProvider from "./ChangingProgressProvider";
+
+// Radial separators
+import RadialSeparators from "./RadialSeparators";
+
+
 class PageHeader extends React.Component {
   render() {
     return (
@@ -31,6 +45,17 @@ class PageHeader extends React.Component {
                <h3 className="d-sm-block">
                  Insert catchphrase here.
                </h3>
+               <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}>
+                 {percentage => (
+                   <CircularProgressbar
+                    value={percentage}
+                    text={''}
+                    styles={buildStyles({
+                      pathTransitionDuration: 0.15
+                    })}
+                  />
+                )}
+            </ChangingProgressProvider>
             </div>
           </Container>
         </div>

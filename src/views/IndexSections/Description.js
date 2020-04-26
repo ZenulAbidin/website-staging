@@ -179,12 +179,13 @@ class Description extends React.Component {
           <h3 className="title text-center">Nice to meet you, by the way.</h3>
           <p className="text-center"><a href="https://www.youtube.com/watch?v=lrdaj1W0hhE">May the Force be with you.</a></p>
           <p className="text-center">And while you&apos;re here, I invite you to join the <a href="https://dev.to">developer hacker cult</a>.</p>
+        </Container>
         <Container>
           <h3 className="title text-center"><em>Ultima Ratio</em></h3>
           <p className="text-center"><strong>I am commited to using every lat minute of my time to finishing my endevours, because my machine is very unstable, and I could involuntarily go offline any day. So use me while you can.</strong></p>
         </Container>
         <Container>
-          <img alt="..."  width="300" height="300" src={require("assets/img/path1.png")} />
+          <img alt="..."  width="300" height="300" src={require("assets/img/morpheus.png")} />
           <p className="text-center">So which one will it be?</p>
           <Row>
             <Col>

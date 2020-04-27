@@ -81,7 +81,7 @@ class PageHeader extends React.Component {
                  {captions[this.state.index]}
                </h3>
                <h3 className="d-sm-block">
-                 {this.state.opacity}
+                 {this.state.opacity} <br/>  {this.state.percentage} 
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>

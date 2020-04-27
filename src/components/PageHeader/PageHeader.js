@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React, {useState} from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
@@ -35,9 +35,8 @@ let captions=[
 "Borg was here.",
 ]
 
-const [index, setIndex] = React.useState(0);
-
 class PageHeader extends React.Component {
+  [index, setIndex] = React.useState(0)
   render() {
     setInterval(function() {setIndex((index+1) % captions.length)}, 1000)
     return (

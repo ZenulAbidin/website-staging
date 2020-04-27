@@ -47,7 +47,7 @@ class PageHeader extends React.Component {
 
   componentDidMount() {
     const timer = setInterval(() => {
-      this.setState({percentage: this.state.percentage+10}
+      this.setState({percentage: this.state.percentage+10})
       if (this.state.percentage === 100) {
         this.setState({percentage: 10, index: (this.state.index+1) % captions.length})
       }}, 200);

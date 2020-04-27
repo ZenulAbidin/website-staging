@@ -35,6 +35,7 @@ let captions=[
 "Borg was here.",
 ]
 
+
 class PageHeader extends React.Component {
   constructor(props) {
     super(props);
@@ -42,8 +43,14 @@ class PageHeader extends React.Component {
       index: 0
     };
   }
+
+  componentDidMount() {
+    const timer = seInterval(() => {
+      this.setState({index: (this.state.index+1) % captions.length})  }, 1000);
+    return () => clearInterval(timer);
+    }
+
   render() {
-    setInterval(() => {this.setState({index: (this.state.index+1) % captions.length})}, 1000)
     return (
       <div className="page-header header-filter">
         <div className="page-header background-1">

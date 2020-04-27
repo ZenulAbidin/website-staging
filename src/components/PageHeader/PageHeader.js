@@ -48,25 +48,34 @@ class PageHeader extends React.Component {
     };
   }
 
+  updateOpacity() {
+    switch (this.state.percentage) {
+      case 5:
+      case 95:
+        this.setState({opacity: 0.5});
+        break;
+      case 0:
+        this.setState({opacity: 0});
+        break;
+      default:
+        this.setState({opacity: 1});
+        break;
+     }
+   }
+
+   goNext() {
+     this.setState({percentage: 0, index: (this.state.index+1) % captions.length})
+     this.updateOpacity();
+   }
+
   componentDidMount() {
     const timer = setInterval(() => {
       this.setState({percentage: this.state.percentage + this.state.inc})
       if (this.state.percentage === 100) {
         this.setState({percentage: 0, index: (this.state.index+1) % captions.length})
       }
-
-      switch (this.state.percentage) {
-        case 5:
-        case 95:
-          this.setState({opacity: 0.5});
-          break;
-        case 0:
-          this.setState({opacity: 0});
-          break;
-        default:
-          this.setState({opacity: 1});
-          break;
-      }}, this.state.interval);
+      this.updateOpacity()
+    }, this.state.interval);
     return () => clearInterval(timer);
     }
 
@@ -83,7 +92,7 @@ class PageHeader extends React.Component {
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>
                    <Progress value={this.state.percentage} />
-                     <Button className="btn-link" color="primary">
+                     <Button className="btn-link" color="primary" onClick={() => goNext()}>
                        <i class="tim-icons icon-double-right"></i>
                      </Button>
                 </div>

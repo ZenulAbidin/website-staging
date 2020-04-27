@@ -13,8 +13,8 @@
         height: 100vh;
 
         .caption-fade {
-            -webkit-animation: textInOut 2s linear forwards;
-            animation: textInOut 2s linear forwards;
+            -webkit-animation: textInOut 2s infinite;
+            animation: textInOut 2s infinite;
         }
 
         .container{

@@ -66,7 +66,7 @@ class PageHeader extends React.Component {
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>
-                   <Progress value=`${this.state.percentage}` />
+                   <Progress value={this.state.percentage} />
                 </div>
               </div>
             </div>

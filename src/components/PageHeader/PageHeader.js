@@ -41,7 +41,7 @@ class PageHeader extends React.Component {
                <h3 className="d-sm-block">
                  Insert catchphrase here.
                </h3>
-               <div style={{display: "flex"}}>
+               <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignItems: "center", width: "10%" }}>
                  </div>
                  <div style={{ alignItems: "center", width: "10%" }}>

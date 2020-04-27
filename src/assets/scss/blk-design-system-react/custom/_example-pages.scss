@@ -1,7 +1,21 @@
+@-webkit-keyframes textInOut {
+ 0%,100% {opacity: 0;}
+ 10%, 90% {opacity: 1;}
+}
+@keyframes textInOut {
+ 0%,100% {opacity: 0;}
+ 10%, 90% {opacity: 1;}
+ }
+
 // style for the landing page
 .index-page {
     .page-header {
         height: 100vh;
+
+        .caption-fade {
+            -webkit-animation: textInOut 2s linear forwards;
+            animation: textInOut 2s linear forwards;
+        }
 
         .container{
             > .content-center {

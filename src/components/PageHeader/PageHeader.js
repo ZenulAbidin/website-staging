@@ -61,7 +61,7 @@ class PageHeader extends React.Component {
            <Container>
              <div className="content-center brand">
                <h1 className="h1-seo">I am <b>Ali Sherief</b>,</h1>
-               <h3 className="d-sm-block">
+               <h3 className="d-sm-block caption-fade">
                  {captions[this.state.index]}
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>

@@ -172,6 +172,9 @@ class QuotesPage extends React.Component {
                 &#8220;FUTURE SO BRIGHT, I NEED SUNGLASSES&#8221; - BiosPlus
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;I can SEE it.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;There is the inherently selfish response of ‘I have nothing to hide’. Well it is
                 true that I am not ill. It is true that I am not blind. But I still want to live in a world
                 that has hospitals. I still want to live on a street that has accessibility for blind people.

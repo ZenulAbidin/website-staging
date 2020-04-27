@@ -18,7 +18,7 @@
 import React, {useState} from "react";
 
 // reactstrap components
-import { Container, Progress } from "reactstrap";
+import { Container, Progress, Button } from "reactstrap";
 
 // Import react-circular-progressbar module and styles
 import {
@@ -83,6 +83,11 @@ class PageHeader extends React.Component {
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>
                    <Progress value={this.state.percentage} />
+                </div>
+                 <div style={{ alignSelf: "center", width: "10%" }}>
+                  <Button>
+                    <i class="tim-icons icon-double-right"></i>
+                  </Button>
                 </div>
               </div>
             </div>

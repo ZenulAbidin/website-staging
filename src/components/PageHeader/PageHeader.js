@@ -45,7 +45,7 @@ class PageHeader extends React.Component {
   }
 
   componentDidMount() {
-    const timer = seInterval(() => {
+    const timer = setInterval(() => {
       this.setState({index: (this.state.index+1) % captions.length})  }, 1000);
     return () => clearInterval(timer);
     }

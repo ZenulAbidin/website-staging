@@ -41,7 +41,7 @@ class PageHeader extends React.Component {
                <h3 className="d-sm-block">
                  Insert catchphrase here.
                </h3>
-               <div style={{ margin: "auto", width: "12%" }}>
+               <div style={{ display: "flex", justifyContent: "center", width: "10%" }}>
                  <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}>
                    {percentage => (
                      <CircularProgressbar

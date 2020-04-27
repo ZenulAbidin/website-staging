@@ -215,7 +215,7 @@ class ComponentsNavbar extends React.Component {
                     <i className="tim-icons icon-minimal-right" />
                     Quotes
                   </DropdownItem>
-                  <DropdownItem tag="a" href="/pgp-keys">
+                  <DropdownItem tag="a" href="/keys">
                     <i className="tim-icons icon-minimal-right" />
                     PGP keys
                   </DropdownItem>

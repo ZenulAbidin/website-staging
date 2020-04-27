@@ -53,7 +53,6 @@ class PageHeader extends React.Component {
       this.setState({percentage: this.state.percentage + this.state.inc})
       if (this.state.percentage === 100) {
         this.setState({percentage: 0, index: (this.state.index+1) % captions.length})
-      }}, this.state.interval);
 
       switch (this.state.percentage) {
         case 5:
@@ -67,6 +66,7 @@ class PageHeader extends React.Component {
           this.setState({opacity: 1});
           break;
       }
+      }}, this.state.interval);
     return () => clearInterval(timer);
     }
 

@@ -30,8 +30,15 @@ import "react-circular-progressbar/dist/styles.css";
 // Animation
 import ChangingProgressProvider from "./ChangingProgressProvider";
 
+let captions=[
+"Insert catchphrase here.",
+"Borg was here.",
+]
+
 class PageHeader extends React.Component {
+  const [index, setIndex] = React.useState(0);
   render() {
+    setInterval(function() {setIndex((index+1) % captions.length)}, 1000)
     return (
       <div className="page-header header-filter">
         <div className="page-header background-1">
@@ -39,7 +46,7 @@ class PageHeader extends React.Component {
              <div className="content-center brand">
                <h1 className="h1-seo">I am <b>Ali Sherief</b>,</h1>
                <h3 className="d-sm-block">
-                 Insert catchphrase here.
+                 {captions[index]}
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>

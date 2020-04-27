@@ -122,6 +122,7 @@ class KeysPage extends React.Component {
                 signed messages and has no other function. It can be downloaded 
                 <a href="/keys/notatether.asc">here</a>. It&apos;s fingerprint is <em>F97D 7A6F B057 3979 F3F3  D69E CBF5 E4B3 D574 8A37</em>.
               </p>
+              <p>Both keys are RSA4096 encrypted.</p>
                 </Col>
               </Row>
             </Container>

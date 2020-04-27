@@ -35,7 +35,7 @@ let captions=[
 "I am a hero.",
 "I make tools with unlimited power.",
 "Half-synthetic robot man.",
-"I still don't have a 4K display.",
+"I still don't have double displays.",
 "Computer hacker who took the red pill.",
 "I'm psychic.",
 "Spock approves of this slogan.",

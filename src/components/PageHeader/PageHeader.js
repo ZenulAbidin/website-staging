@@ -31,8 +31,17 @@ import "react-circular-progressbar/dist/styles.css";
 import ChangingProgressProvider from "./ChangingProgressProvider";
 
 let captions=[
-"Insert catchphrase here.",
-"Borg was here.",
+"Also known as Zenul_Abidin.",
+"I am a hero.",
+"I make tools with unlimited power.",
+"Half-synthetic robot man.",
+"I still don't have a 4K display.",
+"Computer hacker who took the red pill.",
+"I'm psychic.",
+"Spock approves of this slogan.",
+"I am the game.",
+"Just your friendly robot.",
+"Vengance is mine.",
 ]
 
 

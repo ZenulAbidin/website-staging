@@ -115,7 +115,7 @@ class NotFoundPage extends React.Component {
               <Row>
                 <Col md="12">
                   <div className="text-center">
-                    <img alt="..." src={require("assets/img/morpheus.png")} />
+                    <img alt="..." src={require("assets/img/forgothowtothonk.png")} />
                   </div>
                   <p className="profile-description" className="text-center text-padding">
                     You seem to have hit a dead end. Try looking for the page in the <a href="/sitemap">sitemap</a>, or return to the <a href="/">homepage</a>.

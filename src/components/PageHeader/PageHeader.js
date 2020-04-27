@@ -43,7 +43,7 @@ class PageHeader extends React.Component {
     };
   }
   render() {
-    setInterval(function() {setIndex((index+1) % captions.length)}, 1000)
+    setInterval(function() {this.setState(index: (index+1) % captions.length)}, 1000)
     return (
       <div className="page-header header-filter">
         <div className="page-header background-1">
@@ -51,7 +51,7 @@ class PageHeader extends React.Component {
              <div className="content-center brand">
                <h1 className="h1-seo">I am <b>Ali Sherief</b>,</h1>
                <h3 className="d-sm-block">
-                 {captions[index]}
+                 {captions[this.state.index]}
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>

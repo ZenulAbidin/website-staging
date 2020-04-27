@@ -115,11 +115,13 @@ class KeysPage extends React.Component {
               <h1 className="text-center">PGP keys</h1>
               <p className="profile-description" className="text-center text-padding">
                 My PGP key for encrypting email and making signed messages can be downloaded 
+
                 <a href="/keys/ali.asc">here</a>. It&apos;s fingerprint is <em>2789 4325 9F53 D9EB 45CD  9B26 4936 B8C3 ACA7 BEFB</em>.
               </p>
               <p className="profile-description" className="text-center text-padding">
                 I have a separate key for my Bitcointalk profile NotATether. It will only be used to make
                 signed messages and has no other function. It can be downloaded 
+
                 <a href="/keys/notatether.asc">here</a>. It&apos;s fingerprint is <em>F97D 7A6F B057 3979 F3F3  D69E CBF5 E4B3 D574 8A37</em>.
               </p>
               <p>Both keys are RSA4096 encrypted.</p>

@@ -35,8 +35,9 @@ let captions=[
 "Borg was here.",
 ]
 
+const [index, setIndex] = React.useState(0);
+
 class PageHeader extends React.Component {
-  let [index, setIndex] = React.useState(0);
   render() {
     setInterval(function() {setIndex((index+1) % captions.length)}, 1000)
     return (

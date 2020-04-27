@@ -41,7 +41,7 @@ class PageHeader extends React.Component {
     super(props);
     this.state = {
       index: 0,
-      percentage: 10
+      percentage: 0
     };
   }
 

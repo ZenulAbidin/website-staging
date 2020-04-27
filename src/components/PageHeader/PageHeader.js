@@ -65,6 +65,7 @@ class PageHeader extends React.Component {
           break;
         default:
           this.setState({opacity: 1});
+          break;
       }
     return () => clearInterval(timer);
     }
@@ -78,6 +79,9 @@ class PageHeader extends React.Component {
                <h1 className="h1-seo">I am <b>Ali Sherief</b>,</h1>
                <h3 className="d-sm-block" style={{ opacity: this.state.opacity }}>
                  {captions[this.state.index]}
+               </h3>
+               <h3 className="d-sm-block">
+                 {this.state.opacity}
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>

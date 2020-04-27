@@ -28,6 +28,7 @@ import Index from "views/Index.js";
 //import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import QuotesPage from "views/examples/QuotesPage.js";
+import KeysPage from "views/examples/KeysPage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -40,6 +41,10 @@ ReactDOM.render(
       <Route
         path="/quotes"
         render={props => <QuotesPage {...props} />}
+      />
+      <Route
+        path="/keys"
+        render={props => <KeysPage {...props} />}
       />
     </Switch>
   </BrowserRouter>,

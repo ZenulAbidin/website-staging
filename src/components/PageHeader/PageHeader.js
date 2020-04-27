@@ -46,7 +46,7 @@ class PageHeader extends React.Component {
 
   componentDidMount() {
     const timer = setInterval(() => {
-      this.setState({index: (this.state.index+1) % captions.length})  }, 1000);
+      this.setState({index: (this.state.index+1) % captions.length})  }, 2000);
     return () => clearInterval(timer);
     }
 
@@ -62,7 +62,7 @@ class PageHeader extends React.Component {
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>
-                   <ChangingProgressProvider interval="167" values={[0, 20, 40, 60, 80, 100]}>
+                   <ChangingProgressProvider interval="200" values={[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]}>
                      {percentage => (
                        <CircularProgressbar
                         value={percentage}

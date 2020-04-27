@@ -18,7 +18,7 @@
 import React, {useState} from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container, Progress } from "reactstrap";
 
 // Import react-circular-progressbar module and styles
 import {
@@ -41,12 +41,16 @@ class PageHeader extends React.Component {
     super(props);
     this.state = {
       index: 0
+      percentage: 10;
     };
   }
 
   componentDidMount() {
     const timer = setInterval(() => {
-      this.setState({index: (this.state.index+1) % captions.length})  }, 2000);
+      this.setState({percentage: this.state.percentage+10}
+      if (this.state.percentage === 100) {
+        this.setState({percentage: 10, index: (this.state.index+1) % captions.length})
+      }}, 200);
     return () => clearInterval(timer);
     }
 
@@ -62,17 +66,7 @@ class PageHeader extends React.Component {
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>
-                   <ChangingProgressProvider interval="200" values={[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]}>
-                     {percentage => (
-                       <CircularProgressbar
-                        value={percentage}
-                        text={''}
-                        styles={buildStyles({
-                          pathTransitionDuration: 0.15
-                        })}
-                      />
-                    )}
-                  </ChangingProgressProvider>
+                   <Progress value=`${this.state.percentage}` />
                 </div>
               </div>
             </div>

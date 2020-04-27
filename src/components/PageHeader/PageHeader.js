@@ -43,7 +43,7 @@ class PageHeader extends React.Component {
     };
   }
   render() {
-    setInterval(function() {this.setState({index: (this.state.index+1) % captions.length})}, 1000)
+    setInterval(() => {this.setState({index: (this.state.index+1) % captions.length})}, 1000)
     return (
       <div className="page-header header-filter">
         <div className="page-header background-1">

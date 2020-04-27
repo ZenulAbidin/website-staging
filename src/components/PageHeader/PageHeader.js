@@ -44,7 +44,7 @@ class PageHeader extends React.Component {
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignItems: "center", width: "10%" }}>
                  </div>
-                 <div style={{ alignItems: "center", width: "10%" }}>
+                 <div style={{ alignSelf: "center", width: "10%" }}>
                    <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}>
                      {percentage => (
                        <CircularProgressbar

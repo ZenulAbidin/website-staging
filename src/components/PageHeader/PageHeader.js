@@ -41,16 +41,31 @@ class PageHeader extends React.Component {
     super(props);
     this.state = {
       index: 0,
-      percentage: 0
+      percentage: 0,
+      opacity: 1,
+      interval: 100,
+      inc: 5
     };
   }
 
   componentDidMount() {
     const timer = setInterval(() => {
-      this.setState({percentage: this.state.percentage+10})
+      this.setState({percentage: this.state.percentage + this.state.inc})
       if (this.state.percentage === 100) {
         this.setState({percentage: 0, index: (this.state.index+1) % captions.length})
-      }}, 200);
+      }}, this.state.interval);
+
+      switch (this.state.percentage) {
+        case 5:
+        case 95:
+          this.setState({opacity: 0.5});
+          break;
+        case 0:
+          this.setState({opacity: 0});
+          break;
+        default:
+          this.setState({opacity: 1});
+      }
     return () => clearInterval(timer);
     }
 
@@ -61,7 +76,7 @@ class PageHeader extends React.Component {
            <Container>
              <div className="content-center brand">
                <h1 className="h1-seo">I am <b>Ali Sherief</b>,</h1>
-               <h3 className="d-sm-block caption-fade">
+               <h3 className="d-sm-block" style={{ opacity: {this.state.opacity} }}>
                  {captions[this.state.index]}
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>

@@ -41,18 +41,20 @@ class PageHeader extends React.Component {
                <h3 className="d-sm-block">
                  Insert catchphrase here.
                </h3>
-               <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "10%" }}>
-                 <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}>
-                   {percentage => (
-                     <CircularProgressbar
-                      value={percentage}
-                      text={''}
-                      styles={buildStyles({
-                        pathTransitionDuration: 0.15
-                      })}
-                    />
-                  )}
-                </ChangingProgressProvider>
+               <div style={{display: "flex"}}>
+                 <div style={{ alignItems: "center", width: "10%" }}>
+                   <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}>
+                     {percentage => (
+                       <CircularProgressbar
+                        value={percentage}
+                        text={''}
+                        styles={buildStyles({
+                          pathTransitionDuration: 0.15
+                        })}
+                      />
+                    )}
+                  </ChangingProgressProvider>
+                </div>
               </div>
             </div>
           </Container>

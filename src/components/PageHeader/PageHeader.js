@@ -42,8 +42,6 @@ class PageHeader extends React.Component {
                  Insert catchphrase here.
                </h3>
                <div style={{display: "flex", flexDirection: "column"}}>
-                 <div style={{ alignItems: "center", width: "10%" }}>
-                 </div>
                  <div style={{ alignSelf: "center", width: "10%" }}>
                    <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}>
                      {percentage => (

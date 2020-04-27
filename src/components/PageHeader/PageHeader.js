@@ -83,11 +83,9 @@ class PageHeader extends React.Component {
                <div style={{display: "flex", flexDirection: "column"}}>
                  <div style={{ alignSelf: "center", width: "10%" }}>
                    <Progress value={this.state.percentage} />
-                </div>
-                 <div style={{ alignSelf: "center", width: "10%" }}>
-                  <Button>
-                    <i class="tim-icons icon-double-right"></i>
-                  </Button>
+                     <Button className="btn-link" color="primary">
+                       <i class="tim-icons icon-double-right"></i>
+                     </Button>
                 </div>
               </div>
             </div>

@@ -123,7 +123,7 @@ class ProfilePage extends React.Component {
                     I&apos;m a 20 year old developer based in Khartoum, Sudan. I do many things actually. From writing a missing
                     math library to drawing mediocre artwork to web design to writing to scraping and
                     curating datasets to 3D modelling, you&apos;ll find me anywhere there&apos;s
-                    passion. I guess you could also call me a 10X developer because I do
+                    passion (except at blockchain). I guess you could also call me a 10X developer because I do
                     the work that no one wants to do.
                   </p>
                   <div className="btn-wrapper profile pt-3">
@@ -203,6 +203,7 @@ class ProfilePage extends React.Component {
                   </Col>
                   <Col lg={8} md={10} sm={10}>
                     <ListGroup>
+                      <ListGroupItem color="info">2020-04-29: Got the hang of <a href="https://bitcointalk.org/index.php?topic=5241704.0">modulo</a> in descrete mathematics</ListGroupItem>
                       <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
                       <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>
                       <ListGroupItem color="success">2020-02-24: Completed HackerRank #30DaysofCode in <a href="https://www.hackerrank.com/alihsherief">six</a> languages</ListGroupItem>

@@ -203,7 +203,7 @@ class ProfilePage extends React.Component {
                   </Col>
                   <Col lg={8} md={10} sm={10}>
                     <ListGroup>
-                      <ListGroupItem color="info">2020-04-29: Got the hang of <a href="https://bitcointalk.org/index.php?topic=5241704.0">modulo</a> in descrete mathematics</ListGroupItem>
+                      <ListGroupItem color="info">2020-04-28: Got the hang of <a href="https://bitcointalk.org/index.php?topic=5241704.0">modulo</a> in descrete mathematics</ListGroupItem>
                       <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>
                       <ListGroupItem color="primary">2020-03-27: Initiated ZGLshapes project development</ListGroupItem>
                       <ListGroupItem color="success">2020-02-24: Completed HackerRank #30DaysofCode in <a href="https://www.hackerrank.com/alihsherief">six</a> languages</ListGroupItem>

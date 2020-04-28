@@ -54,21 +54,14 @@ class Description extends React.Component {
           <h2 className="text-center">Site Links</h2>
           <Row>
             <Col>
-              <Button color="default">Default</Button>
-              <Button color="primary">
-                Primary
+              <Button color="primary" href="/about-me">
+                About me
               </Button>
-              <Button color="info">
-                Info
+              <Button color="info" href="/quotes">
+                Quotes
               </Button>
-              <Button color="success">
-                Success
-              </Button>
-              <Button color="warning">
-                Warning
-              </Button>
-              <Button color="danger">
-                Danger
+              <Button color="success" href="/keys">
+                PGP Keys
               </Button>
             </Col>
           </Row>

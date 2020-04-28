@@ -62,6 +62,7 @@ class QuotesPage extends React.Component {
   }
 
   componentDidMount() {
+    document.title = "Quotes - Ali Sherief"
     if (navigator.platform.indexOf("Win") > -1) {
       document.documentElement.className += " perfect-scrollbar-on";
       document.documentElement.classList.remove("perfect-scrollbar-off");

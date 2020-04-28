@@ -102,7 +102,7 @@ class PageHeader extends React.Component {
                  <div style={{ alignSelf: "center", width: "10%" }}>
                    <Progress value={this.state.percentage} />
                      <Button className="btn-link" color="primary" onClick={() => this.goNext()}>
-                       <i class="tim-icons icon-double-right"></i>
+                       <i className="tim-icons icon-double-right"></i>
                      </Button>
                 </div>
               </div>

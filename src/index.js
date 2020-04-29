@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss?v=1.1.0";
@@ -35,7 +35,7 @@ import ScamWhammerPage from "views/examples/ScamWhammerPage.js";
 import NotFoundPage from "views/examples/NotFoundPage.js";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route exact path="/" render={props => <Index {...props} />} />
       <Route exact
@@ -66,6 +66,6 @@ ReactDOM.render(
         render={props => <NotFoundPage {...props} />}
       />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );

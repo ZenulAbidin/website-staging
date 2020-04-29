@@ -36,19 +36,19 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route exact path="/" render={props => <Index {...props} />} />
-      <Route
+      <Route exact
         path="/about-me"
         render={props => <ProfilePage {...props} />}
       />
-      <Route
+      <Route exact
         path="/quotes"
         render={props => <QuotesPage {...props} />}
       />
-      <Route
+      <Route exact
         path="/keys"
         render={props => <KeysPage {...props} />}
       />
-      <Route
+      <Route exact
         path="/sitemap"
         render={props => <SitemapPage {...props} />}
       />

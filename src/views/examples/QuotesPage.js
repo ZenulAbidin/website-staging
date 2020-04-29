@@ -146,7 +146,7 @@ class QuotesPage extends React.Component {
                 &#8220;I can&apos;t be a titanium robot all day you know.&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                &#8220;I may be a hacker, but I&apos;m not a stalker.&#8221; - Ali Sherief
+                &#8220;He who makes the kernel controls the world.&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;Perhaps one day these quotes will become famous with me.&#8221; - Ali Sherief

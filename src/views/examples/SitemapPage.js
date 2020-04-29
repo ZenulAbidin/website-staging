@@ -133,7 +133,6 @@ class SitemapPage extends React.Component {
               </Row>
               <Row>
                 <Col md="12">
-                <Col md="12">
                  <h2 className="text-center">Projects</h2>
                  <Button color="primary" href="/zglshapes">
                     ZGLshapes

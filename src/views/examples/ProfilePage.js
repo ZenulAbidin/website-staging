@@ -73,15 +73,13 @@ class ProfilePage extends React.Component {
       }
     }
     document.body.classList.toggle("profile-page");
-    if (this.props.location.state) {
-      let anchor = this.props.location.state[anchor];
-      if (anchor) {
-        let node = ReactDOM.findDOMNode(this.refs[anchor]);
-        if (node) {
-            node.scrollIntoView();
-        }
+      let hash = this.props.location.hash.replace('#', '');
+      if (hash) {
+          let node = ReactDOM.findDOMNode(this.refs[hash]);
+          if (node) {
+              node.scrollIntoView();
+          }
       }
-    }
     
   }
 

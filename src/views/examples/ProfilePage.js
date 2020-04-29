@@ -73,24 +73,24 @@ class ProfilePage extends React.Component {
       }
     }
     document.body.classList.toggle("profile-page");
-      let hash = this.props.location.hash.replace('#', '');
-      if (hash) {
-          let node = ReactDOM.findDOMNode(this.refs[hash]);
-          if (node) {
-              node.scrollIntoView();
-          }
+    window.scrollTo(0,0);
+    let hash = this.props.location.hash.replace('#', '');
+    if (hash) {
+      let node = ReactDOM.findDOMNode(this.refs[hash]);
+      if (node) {
+        node.scrollIntoView();
       }
-    
+   }
   }
 
   componentDidUpdate() {
-      let hash = this.props.location.hash.replace('#', '');
-      if (hash) {
-          let node = ReactDOM.findDOMNode(this.refs[hash]);
-          if (node) {
-              node.scrollIntoView();
-          }
+    let hash = this.props.location.hash.replace('#', '');
+    if (hash) {
+      let node = ReactDOM.findDOMNode(this.refs[hash]);
+      if (node) {
+        node.scrollIntoView();
       }
+    }
   }
 
   componentWillUnmount() {

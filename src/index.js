@@ -30,6 +30,8 @@ import ProfilePage from "views/examples/ProfilePage.js";
 import QuotesPage from "views/examples/QuotesPage.js";
 import KeysPage from "views/examples/KeysPage.js";
 import SitemapPage from "views/examples/SitemapPage.js";
+import ZGLShapesPage from "views/examples/ZGLShapesPage.js";
+import ScamWhammerPage from "views/examples/ScamWhammerPage.js";
 import NotFoundPage from "views/examples/NotFoundPage.js";
 
 ReactDOM.render(
@@ -51,6 +53,14 @@ ReactDOM.render(
       <Route exact
         path="/sitemap"
         render={props => <SitemapPage {...props} />}
+      />
+      <Route exact
+        path="/zglshapes"
+        render={props => <ZGLShapesPage {...props} />}
+      />
+      <Route exact
+        path="/scamwhammer"
+        render={props => <ScamWhammerPage {...props} />}
       />
       <Route
         render={props => <NotFoundPage {...props} />}

@@ -16,6 +16,7 @@
 
 */
 import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import classnames from "classnames";
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
@@ -73,6 +74,17 @@ class ProfilePage extends React.Component {
     }
     document.body.classList.toggle("profile-page");
   }
+
+  componentDidUpdate() {
+      let hash = this.props.location.hash.replace('#', '');
+      if (hash) {
+          let node = ReactDOM.findDOMNode(this.refs[hash]);
+          if (node) {
+              node.scrollIntoView();
+          }
+      }
+  }
+
   componentWillUnmount() {
     if (navigator.platform.indexOf("Win") > -1) {
       ps.destroy();

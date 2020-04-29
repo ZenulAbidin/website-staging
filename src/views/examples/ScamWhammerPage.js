@@ -103,7 +103,7 @@ class ScamWhammerPage extends React.Component {
               className="path"
               src={require("assets/img/path4.png")}
             />
-            <div style={{"text-align": "center"}}>
+            <div>
               <br/>
               <br/>
               <br/>
@@ -112,7 +112,7 @@ class ScamWhammerPage extends React.Component {
               <br/>
             <Container>
               <Row>
-                <Col>
+                <Col md="12">
               <h1 className="text-center">ScamWhammer</h1>
               <img alt="..."  src={require("assets/img/scamwhammer.png")} />
               <br/>

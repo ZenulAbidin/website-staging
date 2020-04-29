@@ -103,7 +103,7 @@ class ZGLShapesPage extends React.Component {
               className="path"
               src={require("assets/img/path4.png")}
             />
-            <div style={{"text-align": "center"}}>
+            <div>
               <br/>
               <br/>
               <br/>
@@ -112,7 +112,7 @@ class ZGLShapesPage extends React.Component {
               <br/>
             <Container>
               <Row>
-                <Col>
+                <Col md="12">
               <h1 className="text-center">ZGLShapes</h1>
               <img alt="..."  src={require("assets/img/zglshapes.png")} />
               <br/>

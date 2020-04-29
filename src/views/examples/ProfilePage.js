@@ -283,7 +283,7 @@ class ProfilePage extends React.Component {
                         <Button
                           className="btn-simple"
                           color="info"
-                          href="https://github.com/ZenulAbidin/adblocker-cryptoscams"
+                          href="https://github.com/ZenulAbidin/scamwhammer"
                         >
                           <i className="tim-icons icon-bulb-63" /> Check it!
                         </Button>

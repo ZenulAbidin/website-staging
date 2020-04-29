@@ -132,7 +132,7 @@ class ScamWhammerPage extends React.Component {
               </p>
               <p className="profile-description" className="text-padding">
                 When you visit one of these sites with this filter list, the adblocker will display a prominent page announcing that the site has been blocked. The exact page shown depends
-                on the adblocker you are using, but generally, the name of the filter list should be there, which is aptly named &quot;NotATetherapos;s Cryptocurrency Scams List (ScamWhammer)&quot;.
+                on the adblocker you are using, but generally, the name of the filter list should be there, which is aptly named &quot;NotATether&apos;s Cryptocurrency Scams List (ScamWhammer)&quot;.
               </p>
               <p className="profile-description" className="text-padding">
                 This list doesn&apos;t only include bitcoin scams but it also includes scams related to other altcoins.
@@ -148,7 +148,7 @@ class ScamWhammerPage extends React.Component {
                 <Button
                   className="btn-simple"
                   color="info"
-                  href="https://github.com/ZenulAbidin/adblocker-cryptoscams"
+                  href="https://github.com/ZenulAbidin/scamwhammer"
                 >
                   <i className="tim-icons icon-bulb-63" /> View on Github
                 </Button>

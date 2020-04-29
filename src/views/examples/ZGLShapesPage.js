@@ -117,11 +117,11 @@ class ZGLShapesPage extends React.Component {
               <img alt="..."  src={require("assets/img/zglshapes.png")} />
               <br/>
               <br/>
-              <p className="profile-description" className="text-padding">
+              <p className="profile-description">
                 ZGLShapes is a C++ utility library for creating and manipulating 2D and 3D shapes. It is intended to solve the problem of &quot;many math libraries, not enough routines&quot;
                 that is prevalent in the most popular math libraries. When it&apos;s completed, it will also include special functions, linear algebra routines and functions from other mathematical disciplines.
               </p>
-              <p className="profile-description" className="text-padding">
+              <p className="profile-description">
                 ZGLShapes is currently under development, hence experimental. Here&apos;s a non-exhaustive list of math branches that ZGLShapes will contain when it&apos;s finished:
                 <ul>
                   <li>Special functions</li>
@@ -137,7 +137,7 @@ class ZGLShapesPage extends React.Component {
                   <li>Annotation of shapes with TeX</li>
                 </ul>
               </p>
-              <p className="profile-description" className="text-padding">
+              <p className="profile-description">
                 At this time, the shapes can only be drawn to Qt5, however I have plans to make drawing support for general OpenGL programs as well.
               </p>
               <br/>

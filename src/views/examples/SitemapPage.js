@@ -131,6 +131,8 @@ class SitemapPage extends React.Component {
                   </Button>
                 </Col>
               </Row>
+              <br/>
+              <br/>
               <Row>
                 <Col md="12">
                  <h2 className="text-center">Projects</h2>

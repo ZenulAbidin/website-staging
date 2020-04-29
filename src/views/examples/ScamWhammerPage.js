@@ -71,7 +71,8 @@ class ScamWhammerPage extends React.Component {
         ps = new PerfectScrollbar(tables[i]);
       }
     }
-    document.body.classList.toggle("quotes-page");
+    document.body.classList.toggle("scamwhammer-page");
+    window.scrollTo(0,0);
   }
   componentWillUnmount() {
     if (navigator.platform.indexOf("Win") > -1) {
@@ -79,7 +80,7 @@ class ScamWhammerPage extends React.Component {
       document.documentElement.className += " perfect-scrollbar-off";
       document.documentElement.classList.remove("perfect-scrollbar-on");
     }
-    document.body.classList.toggle("quotes-page");
+    document.body.classList.toggle("scamwhammer-page");
   }
   toggleTabs = (e, stateName, index) => {
     e.preventDefault();

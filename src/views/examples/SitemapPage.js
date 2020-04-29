@@ -71,7 +71,8 @@ class SitemapPage extends React.Component {
         ps = new PerfectScrollbar(tables[i]);
       }
     }
-    document.body.classList.toggle("quotes-page");
+    document.body.classList.toggle("sitemap-page");
+    window.scrollTo(0,0);
   }
   componentWillUnmount() {
     if (navigator.platform.indexOf("Win") > -1) {
@@ -79,7 +80,7 @@ class SitemapPage extends React.Component {
       document.documentElement.className += " perfect-scrollbar-off";
       document.documentElement.classList.remove("perfect-scrollbar-on");
     }
-    document.body.classList.toggle("quotes-page");
+    document.body.classList.toggle("sitemap-page");
   }
   toggleTabs = (e, stateName, index) => {
     e.preventDefault();

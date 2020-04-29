@@ -72,6 +72,7 @@ class QuotesPage extends React.Component {
       }
     }
     document.body.classList.toggle("quotes-page");
+    window.scrollTo(0,0);
   }
   componentWillUnmount() {
     if (navigator.platform.indexOf("Win") > -1) {

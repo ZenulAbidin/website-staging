@@ -29,6 +29,7 @@ import Index from "views/Index.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import QuotesPage from "views/examples/QuotesPage.js";
 import KeysPage from "views/examples/KeysPage.js";
+import SitemapPage from "views/examples/SitemapPage.js";
 import NotFoundPage from "views/examples/NotFoundPage.js";
 
 ReactDOM.render(
@@ -46,6 +47,10 @@ ReactDOM.render(
       <Route
         path="/keys"
         render={props => <KeysPage {...props} />}
+      />
+      <Route
+        path="/sitemap"
+        render={props => <SitemapPage {...props} />}
       />
       <Route
         render={props => <NotFoundPage {...props} />}

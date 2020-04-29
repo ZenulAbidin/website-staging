@@ -96,24 +96,23 @@ class Description extends React.Component {
           <p className="text-center">To clear the information, I am <strong>not</strong>&quot;a person who uses computers to gain unauthorized access to data&quot;. What I am is a brilliant scientist skilled computer expert
             (insert genius word here) who uses my technical knowledge to overcome a problem. Just your friendly reminder that not all hackers are bad, in fact, <em>most</em> hackers aren&apos;t bad, they have designed
             the technology that you use every day.</p>
-          <p className="text-center">With <em>this</em> meaning of the word &quot;hacker&quot;, here are some hackers you may have heard of. In the interest of being inclusive, I also have a list of female hackers as well.</p>
+          <p className="text-center">With <em>this</em> meaning of the word &quot;hacker&quot;, here are some hackers you may have heard of.</p>
            <ul>
-             <li><a href="/about-me">Bill Gates</a> (made Windows)</li>
-             <li><a href="/about-me">Steve Jobs</a> (made Apple)</li>
-             <li><a href="/about-me">Linus Torvalds</a> (made the penguin system that all businesses use in their technology)</li>
-             <li><a href="/about-me">Tim Berners-Lee</a> (made the internet)</li>
-             <li><a href="/about-me">Alan Kay</a> (made laptops a thing)</li>
-             <li><a href="/about-me">Jeff Bezos</a> (Amazon)</li>
-             <li><a href="/about-me">Larry Page</a> (Google)</li>
-             <li><a href="/about-me">Sergey Brin</a> (also Google)</li>
-             <li><a href="/about-me">Karlheinz Brandenburg</a> (invented MP3 files)</li>
-             <li><a href="/about-me">James D. Johnston</a> (also invented MP3 files)</li>
-             <li><a href="/about-me">Meg Whitman</a> (eBay) (see, there are women hackers too)</li>
-             <li><a href="/about-me">Bill Joy</a> (made a popular text editor)</li>
-             <li><a href="/about-me">Mark Zuckerberg</a> (Facebook)</li>
-             <li><a href="/about-me">Sheryl Sandberg</a> (Facebook)</li>
-             <li><a href="/about-me">Susan Wojcicki</a> (Youtube)</li>
-             <li><a href="/about-me">Ginni Rometty</a> (IBM)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Bill_gates">Bill Gates</a> (made Windows)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Steve_Jobs">Steve Jobs</a> (made Apple)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Linus_torvalds">Linus Torvalds</a> (made the penguin system that all businesses use in their technology)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> (made the internet)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Alan_Kay">Alan Kay</a> (made laptops a thing)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Jeff_Bezos">Jeff Bezos</a> (Amazon)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Larry_Page">Larry Page</a> (Google)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Sergey_Brin">Sergey Brin</a> (also Google)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Karlheinz_Brandenburg">Karlheinz Brandenburg</a> (invented MP3 files)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Meg_Whitman">Meg Whitman</a> (eBay) (see, there are women hackers too)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Bill_Joy">Bill Joy</a> (made the popular text editor &quot;vi&quot;)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Mark_Zuckerberg">Mark Zuckerberg</a> (Facebook)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Sheryl_Sandberg">Sheryl Sandberg</a> (Facebook)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Susan_Wojcicki">Susan Wojcicki</a> (Youtube)</li>
+             <li><a href="https://en.wikipedia.org/wiki/Ginni_Rometty">Ginni Rometty</a> (IBM)</li>
            </ul>
           <p className="text-center">All business leaders are also hackers, they don&apos;t work 8 hours at night making household names for nothing. Also this:</p>
           <Row>

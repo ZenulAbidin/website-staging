@@ -166,6 +166,8 @@ class QuotesPage extends React.Component {
                 Because it is the case that when you ask someone for those things, they may not grant them. And then you will know
                 that you are not free.&#8221; - Jacob Appelbaum
               </p>
+              <br/>
+              <br/>
                 </Col>
               </Row>
             </Container>

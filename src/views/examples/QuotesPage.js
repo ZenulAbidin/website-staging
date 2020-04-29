@@ -144,6 +144,18 @@ class QuotesPage extends React.Component {
                 &#8220;I trust the people who help me. I love the people who save me.&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;The mathematical term for stupidity is irrationality.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;The keyboard is mightier than the sword.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;Most genius discoveries happen by accident.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
+                &#8220;I fear no pirates.&#8221; - Ali Sherief
+              </p>
+              <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;I can&apos;t be a titanium robot all day you know.&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">

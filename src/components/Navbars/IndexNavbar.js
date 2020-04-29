@@ -203,7 +203,7 @@ class ComponentsNavbar extends React.Component {
                   Links
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
-                  <DropdownItem tag="a" href="/about-me">
+                  <DropdownItem tag="a" href="/#/about-me">
                     <i className="tim-icons icon-single-02" />
                     About me
                   </DropdownItem>

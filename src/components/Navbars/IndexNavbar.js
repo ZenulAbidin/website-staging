@@ -208,8 +208,8 @@ class ComponentsNavbar extends React.Component {
                     About me
                   </DropdownItem>
                   <DropdownItem tag={Link} to={{
-                    pathname: "/about-me"
-                    hash: "#projects"
+                    pathname: "/about-me",
+                    hash: "#projects",
                     state: { anchor: "projects" } }}>
                     <i className="tim-icons icon-minimal-right" />
                     Projects

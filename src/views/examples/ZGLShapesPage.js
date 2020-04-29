@@ -133,6 +133,7 @@ class ZGLShapesPage extends React.Component {
                   <li>Ordinary differantial equations and partial differential equations</li>
                   <li>Classes for 2D and 3D primitives</li>
                   <li>Annotation of shapes with TeX</li>
+                </ul>
               </p>
               <p className="profile-description" className="text-center text-padding">
                 At this time, the shapes can only be drawn to Qt5, however I have plans to make drawing support for general OpenGL programs as well.

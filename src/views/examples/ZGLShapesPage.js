@@ -62,7 +62,7 @@ class ZGLShapesPage extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "ZGLShapes - Ali Sherief"
+    document.title = "ZGLshapes - Ali Sherief"
     if (navigator.platform.indexOf("Win") > -1) {
       document.documentElement.className += " perfect-scrollbar-on";
       document.documentElement.classList.remove("perfect-scrollbar-off");
@@ -114,17 +114,17 @@ class ZGLShapesPage extends React.Component {
               <Row>
                 <Col md="12">
                   <div className="text-center">
-                    <h1>ZGLShapes</h1>
+                    <h1>ZGLshapes</h1>
                     <img alt="..."  src={require("assets/img/zglshapes.png")} />
                   </div>
               <br/>
               <br/>
               <p className="profile-description" className="text-padding">
-                ZGLShapes is a C++ utility library for creating and manipulating 2D and 3D shapes. It is intended to solve the problem of &quot;many math libraries, not enough routines&quot;
+                ZGLshapes is a C++ utility library for creating and manipulating 2D and 3D shapes. It is intended to solve the problem of &quot;many math libraries, not enough routines&quot;
                 that is prevalent in the most popular math libraries. When it&apos;s completed, it will also include special functions, linear algebra routines and functions from other mathematical disciplines.
               </p>
               <p className="profile-description" className="text-padding">
-                ZGLShapes is currently under development, hence experimental. Here&apos;s a non-exhaustive list of math branches that ZGLShapes will contain when it&apos;s finished:
+                ZGLshapes is currently under development, hence experimental. Here&apos;s a non-exhaustive list of math branches that ZGLshapes will contain when it&apos;s finished:
                 <ul>
                   <li>Special functions</li>
                   <li>Matrix and tensor classes</li>
@@ -148,7 +148,7 @@ class ZGLShapesPage extends React.Component {
                 <Button
                   className="btn-simple"
                   color="info"
-                  href="https://github.com/ZenulAbidin/ZGLShapes"
+                  href="https://github.com/ZenulAbidin/ZGLshapes"
                 >
                  <i className="tim-icons icon-bulb-63" /> View on Github
                 </Button>

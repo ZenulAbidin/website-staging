@@ -235,7 +235,7 @@ class ProfilePage extends React.Component {
                     </CardHeader>
                     <CardBody>
                       <p className="profile-description">
-                        ZGLShapes is a C++ utility library for creating and manipulating 2D and 3D shapes. It is intended to solve the problem of &quot;many math libraries, not enough routines&quot;
+                        ZGLshapes is a C++ utility library for creating and manipulating 2D and 3D shapes. It is intended to solve the problem of &quot;many math libraries, not enough routines&quot;
                         that is prevalent in the most popular math libraries.
                       </p>
                       <div className="btn-wrapper pt-3">
@@ -249,7 +249,7 @@ class ProfilePage extends React.Component {
                         <Button
                           className="btn-simple"
                           color="info"
-                          href="https://github.com/ZenulAbidin/ZGLShapes"
+                          href="https://github.com/ZenulAbidin/ZGLshapes"
                         >
                           <i className="tim-icons icon-bulb-63" /> Check it!
                         </Button>

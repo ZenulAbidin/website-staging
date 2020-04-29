@@ -131,6 +131,18 @@ class SitemapPage extends React.Component {
                   </Button>
                 </Col>
               </Row>
+              <Row>
+                <Col md="12">
+                <Col md="12">
+                 <h2 className="text-center">Projects</h2>
+                 <Button color="primary" href="/zglshapes">
+                    ZGLshapes
+                  </Button>
+                  <Button color="info" href="/scamwhammer">
+                    ScamWhammer
+                  </Button>
+                </Col>
+              </Row>
             </Container>
             </div>
           </div>

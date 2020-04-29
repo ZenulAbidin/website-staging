@@ -16,6 +16,7 @@
 
 */
 import React from "react";
+import ReactDOM from "react-dom";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";

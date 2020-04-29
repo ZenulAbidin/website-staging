@@ -115,8 +115,8 @@ class ScamWhammerPage extends React.Component {
                 <Col md="12">
               <h1 className="text-center">ScamWhammer</h1>
               <img alt="..."  src={require("assets/img/scamwhammer.png")} />
-              </br>
-              </br>
+              <br/>
+              <br/>
               <p className="profile-description" className="text-padding">
                 ScamWhammer is a filter list for adblockers containing a nearly-exhaustive list of domains being used for scams and HYIPs.
                 The list is not limited to domain names and also contains Telegram links, Medium pages, Youtube videos, and other social engineering and phishing pages.
@@ -140,8 +140,8 @@ class ScamWhammerPage extends React.Component {
                     elimination of scams, submit a Github pull request with aditional blocked sites that you have found. If you are trying to block a page, merely listing the URL is not enough,
                     you need to put ^$document at the end of the URL so that it can be blocked.</em>
               </p>
-              </br>
-              </br>
+              <br/>
+              <br/>
               <Button
                 className="btn-simple"
                 color="info"
@@ -149,8 +149,8 @@ class ScamWhammerPage extends React.Component {
               >
                 <i className="tim-icons icon-bulb-63" /> View on Github
               </Button>
-              </br>
-              </br>
+              <br/>
+              <br/>
                 </Col>
               </Row>
             </Container>

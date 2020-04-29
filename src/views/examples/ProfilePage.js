@@ -235,22 +235,21 @@ class ProfilePage extends React.Component {
                     </CardHeader>
                     <CardBody>
                       <p className="profile-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
+                        ZGLShapes is a C++ utility library for creating and manipulating 2D and 3D shapes. It is intended to solve the problem of &quot;many math libraries, not enough routines&quot;
+                        that is prevalent in the most popular math libraries.
                       </p>
                       <div className="btn-wrapper pt-3">
                         <Button
                           className="btn-simple"
                           color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="/zglshapes"
                         >
                           <i className="tim-icons icon-book-bookmark" /> More info
                         </Button>
                         <Button
                           className="btn-simple"
                           color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="https://github.com/ZenulAbidin/ZGLShapes"
                         >
                           <i className="tim-icons icon-bulb-63" /> Check it!
                         </Button>
@@ -270,22 +269,21 @@ class ProfilePage extends React.Component {
                     </CardHeader>
                     <CardBody>
                       <p className="profile-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada dignissim purus, eu rhoncus tortor. Fusce commodo a erat ut egestas. In ultrices, augue ut dignissim facilisis, sapien metus laoreet justo, a posuere lectus lorem non turpis.
+                        ScamWhammer is a filter list for adblockers containing a nearly-exhaustive list of domains being used for scams and HYIPs.
+                        The list is not limited to domain names and also contains Telegram links, Medium pages, Youtube videos, and other social engineering and phishing pages.
                       </p>
                       <div className="btn-wrapper pt-3">
                         <Button
                           className="btn-simple"
                           color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="/scamwhammer"
                         >
                           <i className="tim-icons icon-book-bookmark" /> More info
                         </Button>
                         <Button
                           className="btn-simple"
                           color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="https://github.com/ZenulAbidin/adblocker-cryptoscams"
                         >
                           <i className="tim-icons icon-bulb-63" /> Check it!
                         </Button>

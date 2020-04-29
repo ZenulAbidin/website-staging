@@ -53,7 +53,7 @@ import Footer from "components/Footer/Footer.js";
 let ps = null;
 
 
-class KeysPage extends React.Component {
+class ZGLShapesPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -62,7 +62,7 @@ class KeysPage extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "PGP Keys - Ali Sherief"
+    document.title = "ZGLShapes - Ali Sherief"
     if (navigator.platform.indexOf("Win") > -1) {
       document.documentElement.className += " perfect-scrollbar-on";
       document.documentElement.classList.remove("perfect-scrollbar-off");
@@ -113,21 +113,37 @@ class KeysPage extends React.Component {
             <Container>
               <Row>
                 <Col md="12">
-              <h1 className="text-center">PGP keys</h1>
+              <h1 className="text-center">ZGLShapes</h1>
+              <img alt="..."  src={require("assets/img/zglshapes.png")} />
               <p className="profile-description" className="text-center text-padding">
-                My PGP key for encrypting email and making signed messages can be downloaded&nbsp;
-                <a href="/keys/ali.asc">here</a>. It&apos;s fingerprint is <em>2789 4325 9F53 D9EB 45CD  9B26 4936 B8C3 ACA7 BEFB</em>.
-                It is not to be trusted for any activity on the Bitcointalk forum.
+                ZGLShapes is a C++ utility library for creating and manipulating 2D and 3D shapes. It is intended to solve the problem of &quot;many math libraries, not enough routines&quot;
+                that is prevalent in the most popular math libraries. When it&apos;s completed, it will also include special functions, linear algebra routines and functions from other mathematical disciplines.
               </p>
               <p className="profile-description" className="text-center text-padding">
-                I have a separate key for my Bitcointalk profile NotATether. It will only be used to make
-                signed messages and has no other function. It can be downloaded&nbsp;
-                <a href="/keys/notatether.asc">here</a>. It&apos;s fingerprint is <em>F97D 7A6F B057 3979 F3F3  D69E CBF5 E4B3 D574 8A37</em>.
-                This is the only key that should be trusted for Bitcointalk activity, and that&apos;s its exclusive purpose.
+                ZGLShapes is currently under development, hence experimental. Here&apos;s a non-exhaustive list of math branches that ZGLShapes will contain when it&apos;s finished:
+                <ul>
+                  <li>Special functions</li>
+                  <li>Matrix and tensor classes</li>
+                  <li>Linear algebra</li>
+                  <li>Random numbers</li>
+                  <li>Optimization functions, minimization and root finding</li>
+                  <li>Statistical functions</li>
+                  <li>Fourier transforms</li>
+                  <li>Numerical integration, and differentiation</li>
+                  <li>Ordinary differantial equations and partial differential equations</li>
+                  <li>Classes for 2D and 3D primitives</li>
+                  <li>Annotation of shapes with TeX</li>
               </p>
               <p className="profile-description" className="text-center text-padding">
-                Both keys are RSA4096 encrypted.
+                At this time, the shapes can only be drawn to Qt5, however I have plans to make drawing support for general OpenGL programs as well.
               </p>
+              <Button
+                className="btn-simple"
+                color="info"
+                href="https://github.com/ZenulAbidin/ZGLShapes"
+              >
+                <i className="tim-icons icon-bulb-63" /> View on Github
+              </Button>
                 </Col>
               </Row>
             </Container>
@@ -140,4 +156,4 @@ class KeysPage extends React.Component {
   }
 }
 
-export default KeysPage;
+export default ZGLShapesPage;

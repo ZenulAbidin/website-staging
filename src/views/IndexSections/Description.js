@@ -161,7 +161,7 @@ class Description extends React.Component {
         </Container>
         <Container>
           <h3 className="title text-center">I still think you&apos;re a bad hacker. I&apos;ve only seen hackers banging keys on laptops.</h3>
-          <p className="text-center">Fine. Here&apos;s the deal. If I get two <a href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</a>, you start calling a good hacker, OK? Good.</p>
+          <p className="text-center">Fine. Here&apos;s the deal. If I get two <a href="https://www.amazon.com/slp/1080p-monitor/4mmjpony47s65ok">real monitors</a>, you start calling me a good hacker, OK? Good.</p>
         </Container>
         <Container>
           <h3 className="title text-center">Ahem, who are you?</h3>

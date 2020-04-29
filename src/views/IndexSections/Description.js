@@ -176,7 +176,7 @@ class Description extends React.Component {
         <Container>
           <h3 className="title text-center"><em>Ultima Ratio</em></h3>
           <p className="text-center">I am commited to using every last minute of my time to finishing my endevours, because my machine is very unstable (there&apos;s a backstory behind that if you&apos;re interested), and I could involuntarily go offline any day. So use me while you can.</p>
-          <p className="text-center">Or, in the words of <a href="https://bitcointalk.org/index.php?action=profile;u=976210">nullius</a>: #8220;I may soon be gone for a few days here and there. If so, I will catch up when I return; don&apos;t worry, I do not intend to disappear again!&#8221; (<a href="https://bitcointalk.org/index.php?topic=5244365.msg54320546#msg54320546">source</a>)</p>
+          <p className="text-center">Or, in the words of <a href="https://bitcointalk.org/index.php?action=profile;u=976210">nullius</a>: &#8220;I may soon be gone for a few days here and there. If so, I will catch up when I return; don&apos;t worry, I do not intend to disappear again!&#8221; (<a href="https://bitcointalk.org/index.php?topic=5244365.msg54320546#msg54320546">source</a>)</p>
         </Container>
         <Container>
           <div className="text-center">

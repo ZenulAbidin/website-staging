@@ -51,8 +51,8 @@ class Footer extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/privacy-policy">
-                    Privacy Policy
+                  <NavLink href="/keys">
+                    PGP Keys
                   </NavLink>
                 </NavItem>
               </Nav>

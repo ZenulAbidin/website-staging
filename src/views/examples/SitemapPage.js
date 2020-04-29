@@ -117,16 +117,16 @@ class SitemapPage extends React.Component {
                  <Button color="primary" href="/">
                     Homepage
                   </Button>
-                  <Button color="info" href="/about-me">
+                  <Button color="info" href="/#/about-me">
                     About me
                   </Button>
-                  <Button color="success" href="/quotes">
+                  <Button color="success" href="/#/quotes">
                     Quotes
                   </Button>
-                  <Button color="warning" href="/keys">
+                  <Button color="warning" href="/#/keys">
                     PGP Keys
                   </Button>
-                  <Button color="danger" href="/sitemap">
+                  <Button color="danger" href="/#/sitemap">
                     Sitemap
                   </Button>
                 </Col>
@@ -136,10 +136,10 @@ class SitemapPage extends React.Component {
               <Row>
                 <Col md="12">
                  <h2 className="text-center">Projects</h2>
-                 <Button color="primary" href="/zglshapes">
+                 <Button color="primary" href="/#/zglshapes">
                     ZGLshapes
                   </Button>
-                  <Button color="info" href="/scamwhammer">
+                  <Button color="info" href="/#/scamwhammer">
                     ScamWhammer
                   </Button>
                 </Col>

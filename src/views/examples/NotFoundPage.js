@@ -120,7 +120,7 @@ class NotFoundPage extends React.Component {
                   </div>
                   <br />
                   <p className="profile-description" className="text-center text-padding">
-                    You seem to have hit a dead end. Try looking for the page in the <a href="/sitemap">sitemap</a>, or return to the <a href="/">homepage</a>.
+                    You seem to have hit a dead end. Try looking for the page in the <a href="/#/sitemap">sitemap</a>, or return to the <a href="/">homepage</a>.
                   </p>
                 </Col>
               </Row>

@@ -46,12 +46,12 @@ class Footer extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/sitemap">
+                  <NavLink href="/#/sitemap">
                     Sitemap
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/keys">
+                  <NavLink href="/#/keys">
                     PGP Keys
                   </NavLink>
                 </NavItem>
@@ -60,12 +60,12 @@ class Footer extends React.Component {
             <Col md="3">
               <Nav>
                 <NavItem>
-                  <NavLink href="/about-me#contact">
+                  <NavLink href="/#/about-me#contact">
                     Contact me
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/about-me">
+                  <NavLink href="/#/about-me">
                     About me
                   </NavLink>
                 </NavItem>

@@ -207,15 +207,15 @@ class ComponentsNavbar extends React.Component {
                     <i className="tim-icons icon-single-02" />
                     About me
                   </DropdownItem>
-                  <DropdownItem tag="a" href="/about-me#projects">
+                  <DropdownItem tag="a" href="/#/about-me#projects">
                     <i className="tim-icons icon-minimal-right" />
                     Projects
                   </DropdownItem>
-                  <DropdownItem tag="a" href="/quotes">
+                  <DropdownItem tag="a" href="/#/quotes">
                     <i className="tim-icons icon-minimal-right" />
                     Quotes
                   </DropdownItem>
-                  <DropdownItem tag="a" href="/keys">
+                  <DropdownItem tag="a" href="/#/keys">
                     <i className="tim-icons icon-minimal-right" />
                     PGP keys
                   </DropdownItem>
@@ -235,7 +235,7 @@ class ComponentsNavbar extends React.Component {
                 <Button
                   className="nav-link d-none d-lg-block"
                   color="default"
-                  href="/about-me#contact"
+                  href="/#/about-me#contact"
                 >
                   <i className="tim-icons icon-send" /> Contact me
                 </Button>

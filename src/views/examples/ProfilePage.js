@@ -242,7 +242,7 @@ class ProfilePage extends React.Component {
                         <Button
                           className="btn-simple"
                           color="primary"
-                          href="/zglshapes"
+                          href="/#/zglshapes"
                         >
                           <i className="tim-icons icon-book-bookmark" /> More info
                         </Button>
@@ -276,7 +276,7 @@ class ProfilePage extends React.Component {
                         <Button
                           className="btn-simple"
                           color="primary"
-                          href="/scamwhammer"
+                          href="/#/scamwhammer"
                         >
                           <i className="tim-icons icon-book-bookmark" /> More info
                         </Button>

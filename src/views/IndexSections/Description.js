@@ -183,7 +183,7 @@ class Description extends React.Component {
           </div>
           <p className="text-center">So which one will it be?</p>
           <div className="text-center">
-              <Button color="danger" href="/about-me#projects">
+              <Button color="danger" href="/#/about-me#projects">
                 Let&apos;s collab
               </Button>
               <Button color="info" href="https://google.com">

@@ -113,8 +113,10 @@ class ScamWhammerPage extends React.Component {
             <Container>
               <Row>
                 <Col md="12">
-              <h1 className="text-center">ScamWhammer</h1>
-              <img alt="..."  src={require("assets/img/scamwhammer.png")} />
+              <div className="text-center">
+                <h1>ScamWhammer</h1>
+                <img alt="..."  src={require("assets/img/scamwhammer.png")} />
+              </div>
               <br/>
               <br/>
               <p className="profile-description" className="text-padding">
@@ -142,13 +144,15 @@ class ScamWhammerPage extends React.Component {
               </p>
               <br/>
               <br/>
-              <Button
-                className="btn-simple"
-                color="info"
-                href="https://github.com/ZenulAbidin/adblocker-cryptoscams"
-              >
-                <i className="tim-icons icon-bulb-63" /> View on Github
-              </Button>
+              <div className="text-center">
+                <Button
+                  className="btn-simple"
+                  color="info"
+                  href="https://github.com/ZenulAbidin/adblocker-cryptoscams"
+                >
+                  <i className="tim-icons icon-bulb-63" /> View on Github
+                </Button>
+              </div>
               <br/>
               <br/>
                 </Col>

@@ -113,8 +113,10 @@ class ZGLShapesPage extends React.Component {
             <Container>
               <Row>
                 <Col md="12">
-              <h1 className="text-center">ZGLShapes</h1>
-              <img alt="..."  src={require("assets/img/zglshapes.png")} />
+                  <div className="text-center">
+                    <h1>ZGLShapes</h1>
+                    <img alt="..."  src={require("assets/img/zglshapes.png")} />
+                  </div>
               <br/>
               <br/>
               <p className="profile-description" className="text-padding">
@@ -142,13 +144,15 @@ class ZGLShapesPage extends React.Component {
               </p>
               <br/>
               <br/>
-              <Button
-                className="btn-simple"
-                color="info"
-                href="https://github.com/ZenulAbidin/ZGLShapes"
-              >
-                <i className="tim-icons icon-bulb-63" /> View on Github
-              </Button>
+              <div className="text-center">
+                <Button
+                  className="btn-simple"
+                  color="info"
+                  href="https://github.com/ZenulAbidin/ZGLShapes"
+                >
+                 <i className="tim-icons icon-bulb-63" /> View on Github
+                </Button>
+              </div>
               <br/>
               <br/>
                 </Col>

@@ -182,7 +182,7 @@ class ProfilePage extends React.Component {
               </Row>
             </Container>
           </div>
-          <div className="section" id="skills">
+          <div className="section" ref="skills">
             <div style={{"textAlign": "center"}}>
               <h1 className="text-center">Skills</h1>
               <p className="profile-description" className="text-center text-padding">
@@ -203,7 +203,7 @@ class ProfilePage extends React.Component {
               </Container>
             </div>
           </div>
-          <div className="section" id="milestones">
+          <div className="section" ref="milestones">
            <div style={{"textAlign": "center"}}>
               <h1 className="text-center">Milestones</h1>
               <p className="profile-description" className="text-center text-padding">

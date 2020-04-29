@@ -29,6 +29,17 @@ class Index extends React.Component {
   componentDidMount() {
     document.body.classList.toggle("index-page");
   }
+
+  componentDidUpdate() {
+      let hash = this.props.location.hash.replace('#', '');
+      if (hash) {
+          let node = ReactDOM.findDOMNode(this.refs[hash]);
+          if (node) {
+              node.scrollIntoView();
+          }
+      }
+  }
+
   componentWillUnmount() {
     document.body.classList.toggle("index-page");
   }

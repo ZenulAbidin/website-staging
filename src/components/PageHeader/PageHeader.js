@@ -42,6 +42,7 @@ let captions=[
 "I am the game.",
 "Just your friendly robot.",
 "Vengance is mine.",
+"Bad press accepted here."
 ]
 
 

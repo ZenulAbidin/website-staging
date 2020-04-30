@@ -53,7 +53,7 @@ class Description extends React.Component {
           <h3 className="title text-center">Welcome to my site. Have a look around.</h3>
           <h2 className="text-center">Site Links</h2>
           <Row>
-            <Col>
+            <Col md="12">
               <Button color="primary" href="/#/about-me">
                 About me
               </Button>
@@ -69,7 +69,7 @@ class Description extends React.Component {
         <Container>
           <h3 className="title text-center">Take a look at some useful Bitcointalk links while you're here.</h3>
           <Row>
-            <Col>
+            <Col md="12">
               <Button color="primary" href="http://loyce.club/archive/topics/">
                 Topics list by LoyceV
               </Button>

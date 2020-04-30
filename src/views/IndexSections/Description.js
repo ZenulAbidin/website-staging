@@ -93,7 +93,7 @@ class Description extends React.Component {
         </Container>
         <Container>
           <h3 className="title text-center">Woah woah woah. You&apos;re a hacker?</h3>
-          <p className="text-center">To clear the information, I am <strong>not</strong>&quot;a person who uses computers to gain unauthorized access to data&quot;. What I am is a brilliant scientist skilled computer expert
+          <p className="text-center">To clear the information, I am <strong>not</strong> &quot;a person who uses computers to gain unauthorized access to data&quot;. What I am is a brilliant scientist skilled computer expert
             (insert genius word here) who uses my technical knowledge to overcome a problem. Just your friendly reminder that not all hackers are bad, in fact, <em>most</em> hackers aren&apos;t bad, they have designed
             the technology that you use every day.</p>
           <p className="text-center">With <em>this</em> meaning of the word &quot;hacker&quot;, here are some hackers you may have heard of.</p>

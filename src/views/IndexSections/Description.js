@@ -53,41 +53,45 @@ class Description extends React.Component {
           <h3 className="title text-center">Welcome to my site. Have a look around.</h3>
           <h2 className="text-center">Site Links</h2>
           <Row>
-            <Col md="12">
-              <Button color="primary" href="/#/about-me">
-                About me
-              </Button>
-              <Button color="info" href="/#/quotes">
-                Quotes
-              </Button>
-              <Button color="success" href="/#/keys">
-                PGP Keys
-              </Button>
+            <Col>
+              <div style={{"text-align": "center"}}>
+                <Button color="primary" href="/#/about-me">
+                  About me
+                </Button>
+                <Button color="info" href="/#/quotes">
+                  Quotes
+                </Button>
+                <Button color="success" href="/#/keys">
+                  PGP Keys
+                </Button>
+              </div>
             </Col>
           </Row>
         </Container>
         <Container>
           <h3 className="title text-center">Take a look at some useful Bitcointalk links while you're here.</h3>
           <Row>
-            <Col md="12">
-              <Button color="primary" href="http://loyce.club/archive/topics/">
-                Topics list by LoyceV
-              </Button>
-              <Button color="info" href="http://loyce.club/archive/posts/">
-                Recent posts list by LoyceV
-              </Button>
-              <Button color="success" href="http://loyce.club/archive/oldposts/">
-                Older posts list by LoyceV
-              </Button>
-              <Button color="warning" href="http://loyce.club/archive/members/">
-                Members list by LoyceV
-              </Button>
-              <Button color="danger" href="https://bitcointalk.org/index.php?topic=703657.0">
-                Rules (newbies read)
-              </Button>
-              <Button color="default" href="https://bpip.org/">
-                BPIP member stats
-              </Button>
+            <Col>
+              <div style={{"text-align": "center"}}>
+                <Button color="primary" href="http://loyce.club/archive/topics/">
+                  Topics list by LoyceV
+                </Button>
+                <Button color="info" href="http://loyce.club/archive/posts/">
+                  Recent posts list by LoyceV
+                </Button>
+                <Button color="success" href="http://loyce.club/archive/oldposts/">
+                  Older posts list by LoyceV
+                </Button>
+                <Button color="warning" href="http://loyce.club/archive/members/">
+                  Members list by LoyceV
+                </Button>
+                <Button color="danger" href="https://bitcointalk.org/index.php?topic=703657.0">
+                  Rules (newbies read)
+                </Button>
+                <Button color="default" href="https://bpip.org/">
+                  BPIP member stats
+                </Button>
+              </div>
             </Col>
           </Row>
         </Container>

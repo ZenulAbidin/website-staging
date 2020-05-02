@@ -123,7 +123,11 @@ class ScamWhammerPage extends React.Component {
               <p className="profile-description" className="text-padding">
                 ScamWhammer is a filter list for adblockers containing a nearly-exhaustive list of domains being used for scams and HYIPs.
                 The list is not limited to domain names and also contains Telegram links, Medium pages, Youtube videos, and other social engineering and phishing pages.
-                For maximum effectiveness it should be imported into your adblocker of choice, though I intend to get this filter included in adblockers by default.
+                To use it, import https://raw.githubusercontent.com/ZenulAbidin/scamwhammer/master/filter-blocklist.txt into your adblocker of choice, though I intend to get this filter included in adblockers by default.
+              </p>
+              <p className="profile-description" className="text-padding">
+                As of May 2020 over 25,000 scams and risky sites are in the list. The filter list has been tested with Adblock, Adblock Plus, Adguard and uBlock Origin. AdGuard and uBlock Origin truly block the site
+                and display a notice that the site is blocked, but Adblock and Adblock Plus just hide the webpage contents due to limitations in blocking entire sites with those adblockers.
               </p>
               <p className="profile-description" className="text-padding">
                 There are thousands of scammers in the bitcoin universe and very frequently, like highwaymen, they prey on newbies who have no prior knowledge to the

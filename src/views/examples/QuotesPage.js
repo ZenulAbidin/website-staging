@@ -120,7 +120,7 @@ class QuotesPage extends React.Component {
                 If so, what are you doing on this site anyway?&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
-                &#8220;Unstoppable.&#8221; - Ali Sherief
+                &#8220;All ambitious projects sound stupid, until they succeed.&#8221; - Ali Sherief
               </p>
               <p className="profile-description" className="text-center text-padding blockquote blockquote-info">
                 &#8220;The most powerful programmers are the ones who manage to turn a math algorithm

@@ -64,6 +64,12 @@ class Description extends React.Component {
                 <Button color="success" href="/#/keys">
                   PGP Keys
                 </Button>
+                <Button color="info" href="/#/zglshapes">
+                  ZGLshapes
+                </Button>
+                <Button color="success" href="/#/scamwhammer">
+                  ScamWhammer
+                </Button>
               </div>
             </Col>
           </Row>

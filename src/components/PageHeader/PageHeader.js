@@ -40,9 +40,9 @@ let captions=[
 "I'm psychic.",
 "Spock approves of this slogan.",
 "I am the game.",
-"Just your friendly robot.",
-"Vengance is mine.",
-"Bad press accepted here."
+"Soother of Souls.",
+"Bad press accepted here.",
+"Vengance is mine."
 ]
 
 

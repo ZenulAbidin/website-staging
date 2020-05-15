@@ -223,6 +223,7 @@ class ProfilePage extends React.Component {
                   </Col>
                   <Col lg={8} md={10} sm={10}>
                     <ListGroup>
+                      <ListGroupItem color="primary">2020-05-12: Figured out how to make <a href="https://gist.github.com/ZenulAbidin/d37413575d91fd0e58472c030d55163c">HTTP requests</a> in Node.</ListGroupItem>
                       <ListGroupItem color="success">2020-04-30: Github Pages site (this one) launched!</ListGroupItem>
                       <ListGroupItem color="info">2020-04-28: Got the hang of <a href="https://bitcointalk.org/index.php?topic=5241704.0">modulo</a> in descrete mathematics</ListGroupItem>
                       <ListGroupItem color="warning">2020-04-12: Aggressively started learning React.js and reactstrap</ListGroupItem>

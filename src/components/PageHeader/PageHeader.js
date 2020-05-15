@@ -42,7 +42,8 @@ let captions=[
 "I am the game.",
 "Soother of Souls.",
 "Bad press accepted here.",
-"Vengance is mine."
+"Vengance is mine.",
+"Helping is my Signature Talent."
 ]
 
 

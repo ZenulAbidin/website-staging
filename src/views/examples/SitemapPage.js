@@ -130,6 +130,9 @@ class SitemapPage extends React.Component {
                   <Button color="danger" href="/#/sitemap">
                     Sitemap
                   </Button>
+                  <Button color="neutral" href="/static-sites">
+                    Static Sites
+                  </Button>
                 </Col>
               </Row>
               <br/>

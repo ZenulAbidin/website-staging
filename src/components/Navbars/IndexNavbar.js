@@ -211,6 +211,10 @@ class ComponentsNavbar extends React.Component {
                     <i className="tim-icons icon-minimal-right" />
                     Projects
                   </DropdownItem>
+                  <DropdownItem tag="a" href="/static-sites">
+                    <i className="tim-icons icon-minimal-right" />
+                    Static Sites
+                  </DropdownItem>
                   <DropdownItem tag="a" href="/#/quotes">
                     <i className="tim-icons icon-minimal-right" />
                     Quotes

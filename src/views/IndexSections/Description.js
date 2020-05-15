@@ -70,6 +70,9 @@ class Description extends React.Component {
                 <Button color="danger" href="/#/scamwhammer">
                   ScamWhammer
                 </Button>
+                <Button color="neutral" href="/static-sites">
+                  Static Sites
+                </Button>
               </div>
             </Col>
           </Row>

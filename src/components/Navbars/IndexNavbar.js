@@ -244,7 +244,7 @@ class ComponentsNavbar extends React.Component {
                   <i className="tim-icons icon-send" /> Contact me
                 </Button>
               </NavItem>
-            <UncontrolledTooltip placement="bottom" target="navbar-brand">
+            <UncontrolledTooltip placement="bottom" target="navbar-dicord">
               OmegaStorm#0986
             </UncontrolledTooltip>
             </Nav>

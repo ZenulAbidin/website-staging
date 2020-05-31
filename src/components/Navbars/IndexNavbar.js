@@ -154,18 +154,21 @@ class ComponentsNavbar extends React.Component {
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
               </NavItem>
-              <NavItem className="p-0">
+              <NavItem id="navbar-dicord" className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://discordhub.com/profile/660905245987307520"
+                  href="https://discord.gg/the-eye"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="OmegaStorm#0986 https://discord.gg/the-eye"
+                  title="Discord"
                 >
                   <i className="fab fa-discord" />
                   <p className="d-lg-none d-xl-none">Discord</p>
                 </NavLink>
               </NavItem>
+            <UncontrolledTooltip placement="bottom" target="navbar-brand">
+              OmegaStorm#0986
+            </UncontrolledTooltip>
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
@@ -184,7 +187,7 @@ class ComponentsNavbar extends React.Component {
                   href="https://bitcointalk.org/index.php?action=profile;u=2739424"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="View my Bitcointalk profile"
+                  title="Bitcointalk"
                 >
                   <i className="fab fa-bitcoin" />
                   <p className="d-lg-none d-xl-none">Bitcointalk</p>

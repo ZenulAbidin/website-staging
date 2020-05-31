@@ -166,9 +166,6 @@ class ComponentsNavbar extends React.Component {
                   <p className="d-lg-none d-xl-none">Discord</p>
                 </NavLink>
               </NavItem>
-            <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              OmegaStorm#0986
-            </UncontrolledTooltip>
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
@@ -247,6 +244,9 @@ class ComponentsNavbar extends React.Component {
                   <i className="tim-icons icon-send" /> Contact me
                 </Button>
               </NavItem>
+            <UncontrolledTooltip placement="bottom" target="navbar-brand">
+              OmegaStorm#0986
+            </UncontrolledTooltip>
             </Nav>
           </Collapse>
         </Container>

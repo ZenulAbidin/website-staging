@@ -160,7 +160,6 @@ class ComponentsNavbar extends React.Component {
                   href="https://discord.gg/the-eye"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Discord"
                 >
                   <i className="fab fa-discord" />
                   <p className="d-lg-none d-xl-none">Discord</p>

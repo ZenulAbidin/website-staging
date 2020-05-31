@@ -145,7 +145,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/ZenulAbidin"
+                  href="https://twitter.com/Zenul_Abidin"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow me on Twitter"
@@ -160,7 +160,7 @@ class ComponentsNavbar extends React.Component {
                   href="https://discordhub.com/profile/660905245987307520"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Chat with me on Discord"
+                  title="OmegaStorm#0986 https://discord.gg/the-eye"
                 >
                   <i className="fab fa-discord" />
                   <p className="d-lg-none d-xl-none">Discord</p>

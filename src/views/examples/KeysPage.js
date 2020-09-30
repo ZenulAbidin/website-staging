@@ -114,21 +114,16 @@ class KeysPage extends React.Component {
             <Container>
               <Row>
                 <Col md="12">
-              <h1 className="text-center">PGP keys</h1>
+              <h1 className="text-center">PGP key</h1>
               <p className="profile-description" className="text-padding">
-                My PGP key for encrypting email and making signed messages can be downloaded&nbsp;
-                <a href="/keys/ali.asc">here</a>. It&apos;s fingerprint is <br/><em>2789 4325 9F53 D9EB 45CD  9B26 4936 B8C3 ACA7 BEFB</em>.
-                It is not to be trusted for any activity on the Bitcointalk forum.
+                My RSA4096-encrypted PGP key for encrypting files, making signed messages and commits, both inside and outside Bitcointalk,&nbsp;
+                can be downloaded <a href="/keys/ali.asc">here</a>. It&apos;s fingerprint is <br/><em>520A E7DD 0C2F DB5C 4783  8A35 1C3D 1D19 C8E8 B6D8</em>.
               </p>
+
               <p className="profile-description" className="text-padding">
-                I have a separate key for my Bitcointalk profile NotATether. It will only be used to make
-                signed messages and has no other function. It can be downloaded&nbsp;
-                <a href="/keys/notatether.asc">here</a>. It&apos;s fingerprint is <br/><em>F97D 7A6F B057 3979 F3F3  D69E CBF5 E4B3 D574 8A37</em>.
-                This is the only key that should be trusted for Bitcointalk activity, and that&apos;s its exclusive purpose.
+                Previously I had two PGP keys with different functions. This proved to be a hassle to handle, so they have both been retired.
               </p>
-              <p className="profile-description" className="text-padding">
-                Both keys are RSA4096 encrypted.
-              </p>
+
                 </Col>
               </Row>
             </Container>

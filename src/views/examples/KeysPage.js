@@ -117,7 +117,7 @@ class KeysPage extends React.Component {
               <h1 className="text-center">PGP key</h1>
               <p className="profile-description" className="text-padding">
                 My RSA4096-encrypted PGP key for encrypting files, making signed messages and commits, both inside and outside Bitcointalk,&nbsp;
-                can be downloaded <a href="/keys/ali.asc">here</a>. It&apos;s fingerprint is <br/><em>520A E7DD 0C2F DB5C 4783  8A35 1C3D 1D19 C8E8 B6D8</em>.
+                can be downloaded <a href="/keys/ali.asc">here</a>. It&apos;s fingerprint is <em>520A E7DD 0C2F DB5C 4783  8A35 1C3D 1D19 C8E8 B6D8</em>.
               </p>
 
               <p className="profile-description" className="text-padding">
